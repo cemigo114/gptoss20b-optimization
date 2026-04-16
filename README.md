@@ -61,9 +61,21 @@ Steady-state TTFT P99 = 37-40ms (well within 500ms SLA). Cold-start prefix cache
    compute-heavy prefill. 16xTP=1 gives more replicas but slower per-request
    prefill (-11% throughput on this workload).
 
-4. **Do not add EPP/gateway routing** for this workload. The proxy overhead
-   (-12% throughput) outweighs prefix cache routing benefits when output is
-   only 10-50 tokens.
+4. **EPP/gateway routing: depends on your actual cache hit rate.** Our testing
+   showed the proxy overhead (-63% throughput, +691% ITL) far outweighs cache
+   benefits when prompts have significant unique content (~27% document blocks).
+   EPP concentrates requests on fewer pods for cache locality, but the RHOSSM3
+   proxy per-token overhead (3ms → 25ms ITL) destroys throughput for short-output
+   workloads. **Test with your real traffic** — if your actual prefix sharing is
+   higher than our synthetic trace (e.g., >80% of input tokens are shared across
+   requests), EPP may provide net benefit. If most of each prompt is unique
+   document content, skip EPP.
+
+   IMPORTANT: Earlier versions of this analysis reported 99.9% cache hit rate
+   and recommended EPP. That was an error — the synthetic trace had identical
+   prompts (system prompt exceeded max_input_tokens, so customer/document blocks
+   were never included). The corrected diverse-prompt test shows EPP hurts this
+   workload. See `results/variants/fixed_*_diverse.json` for corrected data.
 
 5. **Plan for cold-start latency**: first ~500 requests after deployment/restart
    will have elevated TTFT (up to 4.6s P99) while prefix caches warm up.
