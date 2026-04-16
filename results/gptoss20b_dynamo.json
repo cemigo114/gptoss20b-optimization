@@ -1,0 +1,5012 @@
+{
+  "stage": "dynamo-kv-router",
+  "trace": "conversation_trace.jsonl",
+  "max_input_tokens": 3500,
+  "max_concurrency": 16,
+  "wall_time_s": 21.31,
+  "total_requests": 500,
+  "succeeded": 500,
+  "failed": 0,
+  "requests": [
+    {
+      "input_length": 7324,
+      "output_length": 14,
+      "num_hash_ids": 15,
+      "ttft": 0.24454271094873548,
+      "total_time": 0.24457237706519663,
+      "output_tokens": 0,
+      "itl": null,
+      "status": "ok"
+    },
+    {
+      "input_length": 6760,
+      "output_length": 3,
+      "num_hash_ids": 14,
+      "ttft": 0.27330460608936846,
+      "total_time": 0.2828685729764402,
+      "output_tokens": 3,
+      "itl": 0.004767267033457756,
+      "status": "ok"
+    },
+    {
+      "input_length": 13544,
+      "output_length": 71,
+      "num_hash_ids": 27,
+      "ttft": 0.26501539116725326,
+      "total_time": 0.4751280730124563,
+      "output_tokens": 71,
+      "itl": 0.00300124169859503,
+      "status": "ok"
+    },
+    {
+      "input_length": 26888,
+      "output_length": 458,
+      "num_hash_ids": 53,
+      "ttft": 0.26400954998098314,
+      "total_time": 0.6423810408450663,
+      "output_tokens": 125,
+      "itl": 0.003048767895257521,
+      "status": "ok"
+    },
+    {
+      "input_length": 9418,
+      "output_length": 145,
+      "num_hash_ids": 19,
+      "ttft": 0.24160406505689025,
+      "total_time": 0.657345024170354,
+      "output_tokens": 145,
+      "itl": 0.002863278138748784,
+      "status": "ok"
+    },
+    {
+      "input_length": 4834,
+      "output_length": 173,
+      "num_hash_ids": 10,
+      "ttft": 0.27033633599057794,
+      "total_time": 0.8003871480468661,
+      "output_tokens": 173,
+      "itl": 0.0030815513252258992,
+      "status": "ok"
+    },
+    {
+      "input_length": 17450,
+      "output_length": 610,
+      "num_hash_ids": 35,
+      "ttft": 0.2583528549876064,
+      "total_time": 0.9935074348468333,
+      "output_tokens": 255,
+      "itl": 0.0028810981334751753,
+      "status": "ok"
+    },
+    {
+      "input_length": 7322,
+      "output_length": 490,
+      "num_hash_ids": 15,
+      "ttft": 0.2816229148302227,
+      "total_time": 1.0167881769593805,
+      "output_tokens": 256,
+      "itl": 0.002882932118304512,
+      "status": "ok"
+    },
+    {
+      "input_length": 23141,
+      "output_length": 453,
+      "num_hash_ids": 46,
+      "ttft": 0.27695771609432995,
+      "total_time": 1.0051061681006104,
+      "output_tokens": 256,
+      "itl": 0.0028553806190543315,
+      "status": "ok"
+    },
+    {
+      "input_length": 2290,
+      "output_length": 316,
+      "num_hash_ids": 5,
+      "ttft": 0.2762933981139213,
+      "total_time": 1.0476009440608323,
+      "output_tokens": 256,
+      "itl": 0.0030246530111659974,
+      "status": "ok"
+    },
+    {
+      "input_length": 6324,
+      "output_length": 548,
+      "num_hash_ids": 13,
+      "ttft": 0.24934427882544696,
+      "total_time": 1.0236499989405274,
+      "output_tokens": 256,
+      "itl": 0.0030364110435852232,
+      "status": "ok"
+    },
+    {
+      "input_length": 87169,
+      "output_length": 402,
+      "num_hash_ids": 171,
+      "ttft": 0.2523538488894701,
+      "total_time": 1.0270600819494575,
+      "output_tokens": 256,
+      "itl": 0.003037984643642809,
+      "status": "ok"
+    },
+    {
+      "input_length": 7236,
+      "output_length": 794,
+      "num_hash_ids": 15,
+      "ttft": 0.27855089702643454,
+      "total_time": 1.0533166371751577,
+      "output_tokens": 256,
+      "itl": 0.003038235176719871,
+      "status": "ok"
+    },
+    {
+      "input_length": 2012,
+      "output_length": 354,
+      "num_hash_ids": 4,
+      "ttft": 0.24723817384801805,
+      "total_time": 1.0224083010107279,
+      "output_tokens": 256,
+      "itl": 0.003039828219505794,
+      "status": "ok"
+    },
+    {
+      "input_length": 6758,
+      "output_length": 500,
+      "num_hash_ids": 14,
+      "ttft": 0.29859363893046975,
+      "total_time": 1.0609627389349043,
+      "output_tokens": 256,
+      "itl": 0.002989610612355903,
+      "status": "ok"
+    },
+    {
+      "input_length": 10498,
+      "output_length": 402,
+      "num_hash_ids": 21,
+      "ttft": 0.2612345959059894,
+      "total_time": 1.03681337996386,
+      "output_tokens": 256,
+      "itl": 0.003041426097864614,
+      "status": "ok"
+    },
+    {
+      "input_length": 7238,
+      "output_length": 11,
+      "num_hash_ids": 15,
+      "ttft": 0.05094647407531738,
+      "total_time": 0.05102585908025503,
+      "output_tokens": 11,
+      "itl": 5.670194514095783e-06,
+      "status": "ok"
+    },
+    {
+      "input_length": 915,
+      "output_length": 355,
+      "num_hash_ids": 2,
+      "ttft": 0.052234821021556854,
+      "total_time": 0.9029367309994996,
+      "output_tokens": 256,
+      "itl": 0.003311391812110064,
+      "status": "ok"
+    },
+    {
+      "input_length": 12846,
+      "output_length": 466,
+      "num_hash_ids": 26,
+      "ttft": 0.05025725602172315,
+      "total_time": 0.8979488969780505,
+      "output_tokens": 256,
+      "itl": 0.0033241960119602143,
+      "status": "ok"
+    },
+    {
+      "input_length": 1053,
+      "output_length": 26,
+      "num_hash_ids": 3,
+      "ttft": 0.07050757994875312,
+      "total_time": 0.14197280793450773,
+      "output_tokens": 26,
+      "itl": 0.0028577182814478875,
+      "status": "ok"
+    },
+    {
+      "input_length": 6059,
+      "output_length": 475,
+      "num_hash_ids": 12,
+      "ttft": 0.17655691504478455,
+      "total_time": 0.4044260389637202,
+      "output_tokens": 64,
+      "itl": 0.0029675092710743822,
+      "status": "ok"
+    },
+    {
+      "input_length": 15172,
+      "output_length": 80,
+      "num_hash_ids": 30,
+      "ttft": 0.05156345199793577,
+      "total_time": 0.2615661630406976,
+      "output_tokens": 80,
+      "itl": 0.0026579755211036792,
+      "status": "ok"
+    },
+    {
+      "input_length": 20506,
+      "output_length": 929,
+      "num_hash_ids": 41,
+      "ttft": 0.05238784896209836,
+      "total_time": 0.7928632399998605,
+      "output_tokens": 256,
+      "itl": 0.0028911704425791315,
+      "status": "ok"
+    },
+    {
+      "input_length": 2293,
+      "output_length": 31,
+      "num_hash_ids": 5,
+      "ttft": 0.049452958861365914,
+      "total_time": 0.10921911592595279,
+      "output_tokens": 31,
+      "itl": 0.0019914495370661218,
+      "status": "ok"
+    },
+    {
+      "input_length": 8772,
+      "output_length": 1,
+      "num_hash_ids": 18,
+      "ttft": 0.16854654485359788,
+      "total_time": 0.16856942884624004,
+      "output_tokens": 1,
+      "itl": null,
+      "status": "ok"
+    },
+    {
+      "input_length": 16609,
+      "output_length": 349,
+      "num_hash_ids": 33,
+      "ttft": 0.17138609010726213,
+      "total_time": 0.9325155571568757,
+      "output_tokens": 256,
+      "itl": 0.0029847165724883476,
+      "status": "ok"
+    },
+    {
+      "input_length": 26353,
+      "output_length": 370,
+      "num_hash_ids": 52,
+      "ttft": 0.16974122799001634,
+      "total_time": 0.8944931449368596,
+      "output_tokens": 256,
+      "itl": 0.0028417112625331855,
+      "status": "ok"
+    },
+    {
+      "input_length": 45922,
+      "output_length": 265,
+      "num_hash_ids": 90,
+      "ttft": 0.05188063206151128,
+      "total_time": 0.7804875299334526,
+      "output_tokens": 256,
+      "itl": 0.002856178106009668,
+      "status": "ok"
+    },
+    {
+      "input_length": 10355,
+      "output_length": 584,
+      "num_hash_ids": 21,
+      "ttft": 0.050944783026352525,
+      "total_time": 0.7808041030075401,
+      "output_tokens": 256,
+      "itl": 0.002861605109829529,
+      "status": "ok"
+    },
+    {
+      "input_length": 15366,
+      "output_length": 344,
+      "num_hash_ids": 31,
+      "ttft": 0.16958191897720098,
+      "total_time": 0.8193934180308133,
+      "output_tokens": 218,
+      "itl": 0.002978525174919018,
+      "status": "ok"
+    },
+    {
+      "input_length": 26156,
+      "output_length": 238,
+      "num_hash_ids": 52,
+      "ttft": 0.05130096687935293,
+      "total_time": 0.6904572648927569,
+      "output_tokens": 238,
+      "itl": 0.0026961260972316633,
+      "status": "ok"
+    },
+    {
+      "input_length": 11339,
+      "output_length": 848,
+      "num_hash_ids": 23,
+      "ttft": 0.17184029892086983,
+      "total_time": 0.8934287340380251,
+      "output_tokens": 256,
+      "itl": 0.002829662753342121,
+      "status": "ok"
+    },
+    {
+      "input_length": 5710,
+      "output_length": 745,
+      "num_hash_ids": 12,
+      "ttft": 0.1702147179748863,
+      "total_time": 0.9314807299524546,
+      "output_tokens": 256,
+      "itl": 0.002985252972290504,
+      "status": "ok"
+    },
+    {
+      "input_length": 1477,
+      "output_length": 615,
+      "num_hash_ids": 3,
+      "ttft": 0.07905285200104117,
+      "total_time": 0.9570656989235431,
+      "output_tokens": 256,
+      "itl": 0.0034430877369481558,
+      "status": "ok"
+    },
+    {
+      "input_length": 5954,
+      "output_length": 420,
+      "num_hash_ids": 12,
+      "ttft": 0.17198800295591354,
+      "total_time": 0.9959819880314171,
+      "output_tokens": 256,
+      "itl": 0.0032306968946667278,
+      "status": "ok"
+    },
+    {
+      "input_length": 3806,
+      "output_length": 309,
+      "num_hash_ids": 8,
+      "ttft": 0.04790710611268878,
+      "total_time": 0.9090003820601851,
+      "output_tokens": 256,
+      "itl": 0.0033767487844634874,
+      "status": "ok"
+    },
+    {
+      "input_length": 16635,
+      "output_length": 449,
+      "num_hash_ids": 33,
+      "ttft": 0.05072917602956295,
+      "total_time": 0.8449039338156581,
+      "output_tokens": 256,
+      "itl": 0.003113667062465467,
+      "status": "ok"
+    },
+    {
+      "input_length": 2038,
+      "output_length": 524,
+      "num_hash_ids": 4,
+      "ttft": 0.053330740891397,
+      "total_time": 0.736433592857793,
+      "output_tokens": 256,
+      "itl": 0.0026783396435134553,
+      "status": "ok"
+    },
+    {
+      "input_length": 3628,
+      "output_length": 555,
+      "num_hash_ids": 8,
+      "ttft": 0.05064449110068381,
+      "total_time": 0.781134189106524,
+      "output_tokens": 256,
+      "itl": 0.0028640441760859068,
+      "status": "ok"
+    },
+    {
+      "input_length": 8974,
+      "output_length": 219,
+      "num_hash_ids": 18,
+      "ttft": 0.04613511497154832,
+      "total_time": 0.046158157056197524,
+      "output_tokens": 0,
+      "itl": null,
+      "status": "ok"
+    },
+    {
+      "input_length": 1110,
+      "output_length": 240,
+      "num_hash_ids": 3,
+      "ttft": 0.06836319109424949,
+      "total_time": 0.8101151240989566,
+      "output_tokens": 240,
+      "itl": 0.0031031878191634826,
+      "status": "ok"
+    },
+    {
+      "input_length": 1902,
+      "output_length": 587,
+      "num_hash_ids": 4,
+      "ttft": 0.04481236799620092,
+      "total_time": 0.776684882119298,
+      "output_tokens": 256,
+      "itl": 0.0028696107769421502,
+      "status": "ok"
+    },
+    {
+      "input_length": 19976,
+      "output_length": 105,
+      "num_hash_ids": 40,
+      "ttft": 0.046613319078460336,
+      "total_time": 0.30170593108050525,
+      "output_tokens": 100,
+      "itl": 0.0025436326160537775,
+      "status": "ok"
+    },
+    {
+      "input_length": 4836,
+      "output_length": 24,
+      "num_hash_ids": 10,
+      "ttft": 0.047079585026949644,
+      "total_time": 0.08270040713250637,
+      "output_tokens": 24,
+      "itl": 0.001547616693879599,
+      "status": "ok"
+    },
+    {
+      "input_length": 12095,
+      "output_length": 239,
+      "num_hash_ids": 24,
+      "ttft": 0.04663959192112088,
+      "total_time": 0.6935577050317079,
+      "output_tokens": 239,
+      "itl": 0.0027173855674586128,
+      "status": "ok"
+    },
+    {
+      "input_length": 11041,
+      "output_length": 98,
+      "num_hash_ids": 22,
+      "ttft": 0.04662269493564963,
+      "total_time": 0.29065870796330273,
+      "output_tokens": 98,
+      "itl": 0.00251557072144501,
+      "status": "ok"
+    },
+    {
+      "input_length": 14041,
+      "output_length": 227,
+      "num_hash_ids": 28,
+      "ttft": 0.16709961998276412,
+      "total_time": 0.8584989558439702,
+      "output_tokens": 227,
+      "itl": 0.0030582556634960053,
+      "status": "ok"
+    },
+    {
+      "input_length": 9615,
+      "output_length": 203,
+      "num_hash_ids": 19,
+      "ttft": 0.046649356139823794,
+      "total_time": 0.6220306770410389,
+      "output_tokens": 203,
+      "itl": 0.0028477810786594407,
+      "status": "ok"
+    },
+    {
+      "input_length": 898,
+      "output_length": 324,
+      "num_hash_ids": 2,
+      "ttft": 0.0425076331011951,
+      "total_time": 0.7293195840902627,
+      "output_tokens": 256,
+      "itl": 0.0026932739798783086,
+      "status": "ok"
+    },
+    {
+      "input_length": 898,
+      "output_length": 57,
+      "num_hash_ids": 2,
+      "ttft": 0.04359901091083884,
+      "total_time": 0.20296392403542995,
+      "output_tokens": 57,
+      "itl": 0.002843241356978459,
+      "status": "ok"
+    },
+    {
+      "input_length": 6525,
+      "output_length": 481,
+      "num_hash_ids": 13,
+      "ttft": 0.046442291932180524,
+      "total_time": 0.8146833800710738,
+      "output_tokens": 256,
+      "itl": 0.0030119618711372215,
+      "status": "ok"
+    },
+    {
+      "input_length": 5391,
+      "output_length": 361,
+      "num_hash_ids": 11,
+      "ttft": 0.0461493069306016,
+      "total_time": 0.7424150758888572,
+      "output_tokens": 255,
+      "itl": 0.002740663311290225,
+      "status": "ok"
+    },
+    {
+      "input_length": 1066,
+      "output_length": 324,
+      "num_hash_ids": 3,
+      "ttft": 0.06961873499676585,
+      "total_time": 0.9272508530411869,
+      "output_tokens": 256,
+      "itl": 0.0033628318312705734,
+      "status": "ok"
+    },
+    {
+      "input_length": 38383,
+      "output_length": 589,
+      "num_hash_ids": 75,
+      "ttft": 0.047121364856138825,
+      "total_time": 0.7838165748398751,
+      "output_tokens": 256,
+      "itl": 0.002888275317701639,
+      "status": "ok"
+    },
+    {
+      "input_length": 7543,
+      "output_length": 415,
+      "num_hash_ids": 15,
+      "ttft": 0.04635274480096996,
+      "total_time": 0.7815744578838348,
+      "output_tokens": 256,
+      "itl": 0.0028831297102585142,
+      "status": "ok"
+    },
+    {
+      "input_length": 24246,
+      "output_length": 587,
+      "num_hash_ids": 48,
+      "ttft": 0.045089783146977425,
+      "total_time": 0.7401649630628526,
+      "output_tokens": 256,
+      "itl": 0.0027251143647613477,
+      "status": "ok"
+    },
+    {
+      "input_length": 23143,
+      "output_length": 26,
+      "num_hash_ids": 46,
+      "ttft": 0.045688936952501535,
+      "total_time": 0.08494742610491812,
+      "output_tokens": 26,
+      "itl": 0.0015623744390904904,
+      "status": "ok"
+    },
+    {
+      "input_length": 15761,
+      "output_length": 417,
+      "num_hash_ids": 31,
+      "ttft": 0.04550544801168144,
+      "total_time": 0.7811010091099888,
+      "output_tokens": 256,
+      "itl": 0.002884077521808007,
+      "status": "ok"
+    },
+    {
+      "input_length": 23631,
+      "output_length": 362,
+      "num_hash_ids": 47,
+      "ttft": 0.04606843297369778,
+      "total_time": 0.8853222108446062,
+      "output_tokens": 256,
+      "itl": 0.0032904461373155025,
+      "status": "ok"
+    },
+    {
+      "input_length": 26891,
+      "output_length": 3,
+      "num_hash_ids": 53,
+      "ttft": 0.049377406015992165,
+      "total_time": 0.04942018096335232,
+      "output_tokens": 3,
+      "itl": 8.955481462180614e-06,
+      "status": "ok"
+    },
+    {
+      "input_length": 2350,
+      "output_length": 355,
+      "num_hash_ids": 5,
+      "ttft": 0.044877841835841537,
+      "total_time": 0.7770813659299165,
+      "output_tokens": 256,
+      "itl": 0.0028712878944169655,
+      "status": "ok"
+    },
+    {
+      "input_length": 934,
+      "output_length": 421,
+      "num_hash_ids": 2,
+      "ttft": 0.04435391793958843,
+      "total_time": 0.8742719450965524,
+      "output_tokens": 256,
+      "itl": 0.0032540407497435807,
+      "status": "ok"
+    },
+    {
+      "input_length": 27701,
+      "output_length": 459,
+      "num_hash_ids": 55,
+      "ttft": 0.1650775868911296,
+      "total_time": 1.0445816610008478,
+      "output_tokens": 256,
+      "itl": 0.003448939078724852,
+      "status": "ok"
+    },
+    {
+      "input_length": 19694,
+      "output_length": 178,
+      "num_hash_ids": 39,
+      "ttft": 0.04616491496562958,
+      "total_time": 0.5172095368616283,
+      "output_tokens": 178,
+      "itl": 0.0026611252148546235,
+      "status": "ok"
+    },
+    {
+      "input_length": 7935,
+      "output_length": 375,
+      "num_hash_ids": 16,
+      "ttft": 0.04594415216706693,
+      "total_time": 0.7919521660078317,
+      "output_tokens": 256,
+      "itl": 0.0029246165051910224,
+      "status": "ok"
+    },
+    {
+      "input_length": 35126,
+      "output_length": 538,
+      "num_hash_ids": 69,
+      "ttft": 0.04629456694237888,
+      "total_time": 0.04631688096560538,
+      "output_tokens": 0,
+      "itl": null,
+      "status": "ok"
+    },
+    {
+      "input_length": 14081,
+      "output_length": 522,
+      "num_hash_ids": 28,
+      "ttft": 0.046058024978265166,
+      "total_time": 0.8944219739641994,
+      "output_tokens": 256,
+      "itl": 0.0033256294744490995,
+      "status": "ok"
+    },
+    {
+      "input_length": 13886,
+      "output_length": 534,
+      "num_hash_ids": 28,
+      "ttft": 0.046264349948614836,
+      "total_time": 0.7466068100184202,
+      "output_tokens": 256,
+      "itl": 0.0027455169415357065,
+      "status": "ok"
+    },
+    {
+      "input_length": 3184,
+      "output_length": 195,
+      "num_hash_ids": 7,
+      "ttft": 0.04559901193715632,
+      "total_time": 0.5683811779599637,
+      "output_tokens": 195,
+      "itl": 0.0026935238460770125,
+      "status": "ok"
+    },
+    {
+      "input_length": 8034,
+      "output_length": 1,
+      "num_hash_ids": 16,
+      "ttft": 0.04521901998668909,
+      "total_time": 0.04524731985293329,
+      "output_tokens": 1,
+      "itl": null,
+      "status": "ok"
+    },
+    {
+      "input_length": 1424,
+      "output_length": 290,
+      "num_hash_ids": 3,
+      "ttft": 0.04378367308527231,
+      "total_time": 0.3540435030590743,
+      "output_tokens": 115,
+      "itl": 0.002692604737699424,
+      "status": "ok"
+    },
+    {
+      "input_length": 954,
+      "output_length": 48,
+      "num_hash_ids": 2,
+      "ttft": 0.043013535905629396,
+      "total_time": 0.20071479096077383,
+      "output_tokens": 48,
+      "itl": 0.0033517393204284475,
+      "status": "ok"
+    },
+    {
+      "input_length": 18092,
+      "output_length": 387,
+      "num_hash_ids": 36,
+      "ttft": 0.04502517404034734,
+      "total_time": 0.27262148703448474,
+      "output_tokens": 86,
+      "itl": 0.0026370417874525577,
+      "status": "ok"
+    },
+    {
+      "input_length": 10500,
+      "output_length": 34,
+      "num_hash_ids": 21,
+      "ttft": 0.04638746893033385,
+      "total_time": 0.11655316594988108,
+      "output_tokens": 34,
+      "itl": 0.002125480423935435,
+      "status": "ok"
+    },
+    {
+      "input_length": 12927,
+      "output_length": 460,
+      "num_hash_ids": 26,
+      "ttft": 0.045587131986394525,
+      "total_time": 0.31877255300059915,
+      "output_tokens": 102,
+      "itl": 0.0026709980303698247,
+      "status": "ok"
+    },
+    {
+      "input_length": 12159,
+      "output_length": 237,
+      "num_hash_ids": 24,
+      "ttft": 0.044910104013979435,
+      "total_time": 0.7249665290582925,
+      "output_tokens": 237,
+      "itl": 0.002881501118605167,
+      "status": "ok"
+    },
+    {
+      "input_length": 2651,
+      "output_length": 366,
+      "num_hash_ids": 6,
+      "ttft": 0.04473152011632919,
+      "total_time": 0.8379634579177946,
+      "output_tokens": 256,
+      "itl": 0.0031095513526131126,
+      "status": "ok"
+    },
+    {
+      "input_length": 5922,
+      "output_length": 542,
+      "num_hash_ids": 12,
+      "ttft": 0.045755819184705615,
+      "total_time": 0.788568840129301,
+      "output_tokens": 256,
+      "itl": 0.0029125823091496438,
+      "status": "ok"
+    },
+    {
+      "input_length": 28214,
+      "output_length": 603,
+      "num_hash_ids": 56,
+      "ttft": 0.04571875906549394,
+      "total_time": 0.7427840300370008,
+      "output_tokens": 256,
+      "itl": 0.0027334934977047585,
+      "status": "ok"
+    },
+    {
+      "input_length": 8352,
+      "output_length": 387,
+      "num_hash_ids": 17,
+      "ttft": 0.04575109691359103,
+      "total_time": 0.7841280859429389,
+      "output_tokens": 256,
+      "itl": 0.0028949782115352506,
+      "status": "ok"
+    },
+    {
+      "input_length": 8429,
+      "output_length": 439,
+      "num_hash_ids": 17,
+      "ttft": 0.04623285587877035,
+      "total_time": 0.79630185989663,
+      "output_tokens": 256,
+      "itl": 0.0029408677097629097,
+      "status": "ok"
+    },
+    {
+      "input_length": 36422,
+      "output_length": 255,
+      "num_hash_ids": 72,
+      "ttft": 0.04595994600094855,
+      "total_time": 0.740196316037327,
+      "output_tokens": 255,
+      "itl": 0.0027325409803700845,
+      "status": "ok"
+    },
+    {
+      "input_length": 17453,
+      "output_length": 35,
+      "num_hash_ids": 35,
+      "ttft": 0.04489069106057286,
+      "total_time": 0.13284829701296985,
+      "output_tokens": 35,
+      "itl": 0.0025862860835759957,
+      "status": "ok"
+    },
+    {
+      "input_length": 2133,
+      "output_length": 347,
+      "num_hash_ids": 5,
+      "ttft": 0.044676126912236214,
+      "total_time": 0.7947572199627757,
+      "output_tokens": 256,
+      "itl": 0.0029414044702242986,
+      "status": "ok"
+    },
+    {
+      "input_length": 26045,
+      "output_length": 578,
+      "num_hash_ids": 51,
+      "ttft": 0.16485328506678343,
+      "total_time": 0.16487797908484936,
+      "output_tokens": 0,
+      "itl": null,
+      "status": "ok"
+    },
+    {
+      "input_length": 15852,
+      "output_length": 629,
+      "num_hash_ids": 31,
+      "ttft": 0.04595573595725,
+      "total_time": 0.7475144248455763,
+      "output_tokens": 256,
+      "itl": 0.0027511029330757903,
+      "status": "ok"
+    },
+    {
+      "input_length": 17799,
+      "output_length": 345,
+      "num_hash_ids": 35,
+      "ttft": 0.04562980309128761,
+      "total_time": 0.7412122359964997,
+      "output_tokens": 256,
+      "itl": 0.0027271378347102334,
+      "status": "ok"
+    },
+    {
+      "input_length": 9242,
+      "output_length": 632,
+      "num_hash_ids": 19,
+      "ttft": 0.04593471600674093,
+      "total_time": 0.779189724009484,
+      "output_tokens": 256,
+      "itl": 0.002875415604634612,
+      "status": "ok"
+    },
+    {
+      "input_length": 4541,
+      "output_length": 362,
+      "num_hash_ids": 9,
+      "ttft": 0.04568256181664765,
+      "total_time": 0.743716066936031,
+      "output_tokens": 256,
+      "itl": 0.002736391275025466,
+      "status": "ok"
+    },
+    {
+      "input_length": 10753,
+      "output_length": 596,
+      "num_hash_ids": 22,
+      "ttft": 0.04692033911123872,
+      "total_time": 0.7810617689974606,
+      "output_tokens": 256,
+      "itl": 0.0028782698471902634,
+      "status": "ok"
+    },
+    {
+      "input_length": 1729,
+      "output_length": 31,
+      "num_hash_ids": 4,
+      "ttft": 0.09568325313739479,
+      "total_time": 0.18096706317737699,
+      "output_tokens": 31,
+      "itl": 0.0028418828966096043,
+      "status": "ok"
+    },
+    {
+      "input_length": 42722,
+      "output_length": 464,
+      "num_hash_ids": 84,
+      "ttft": 0.04618061310611665,
+      "total_time": 0.7813942979555577,
+      "output_tokens": 256,
+      "itl": 0.0028830730904112842,
+      "status": "ok"
+    },
+    {
+      "input_length": 13616,
+      "output_length": 492,
+      "num_hash_ids": 27,
+      "ttft": 0.04580965521745384,
+      "total_time": 0.7908457671292126,
+      "output_tokens": 256,
+      "itl": 0.002921118262205638,
+      "status": "ok"
+    },
+    {
+      "input_length": 49902,
+      "output_length": 549,
+      "num_hash_ids": 98,
+      "ttft": 0.04678796697407961,
+      "total_time": 0.7897374480962753,
+      "output_tokens": 256,
+      "itl": 0.0029122928550065147,
+      "status": "ok"
+    },
+    {
+      "input_length": 82276,
+      "output_length": 683,
+      "num_hash_ids": 161,
+      "ttft": 0.04556759889237583,
+      "total_time": 0.782593488926068,
+      "output_tokens": 256,
+      "itl": 0.0028895006907702077,
+      "status": "ok"
+    },
+    {
+      "input_length": 120633,
+      "output_length": 580,
+      "num_hash_ids": 236,
+      "ttft": 0.04568270221352577,
+      "total_time": 0.7426534341648221,
+      "output_tokens": 256,
+      "itl": 0.0027331228267547547,
+      "status": "ok"
+    },
+    {
+      "input_length": 1322,
+      "output_length": 514,
+      "num_hash_ids": 3,
+      "ttft": 0.04302416695281863,
+      "total_time": 0.732011049054563,
+      "output_tokens": 256,
+      "itl": 0.0027018079333299516,
+      "status": "ok"
+    },
+    {
+      "input_length": 13689,
+      "output_length": 358,
+      "num_hash_ids": 27,
+      "ttft": 0.16465027094818652,
+      "total_time": 0.16478178487159312,
+      "output_tokens": 0,
+      "itl": null,
+      "status": "ok"
+    },
+    {
+      "input_length": 17071,
+      "output_length": 440,
+      "num_hash_ids": 34,
+      "ttft": 0.165258658118546,
+      "total_time": 0.933043803088367,
+      "output_tokens": 256,
+      "itl": 0.0030103775563047213,
+      "status": "ok"
+    },
+    {
+      "input_length": 21094,
+      "output_length": 563,
+      "num_hash_ids": 42,
+      "ttft": 0.16529206978157163,
+      "total_time": 0.9343846978154033,
+      "output_tokens": 256,
+      "itl": 0.003015959553201409,
+      "status": "ok"
+    },
+    {
+      "input_length": 13546,
+      "output_length": 17,
+      "num_hash_ids": 27,
+      "ttft": 0.16529174917377532,
+      "total_time": 0.21375040709972382,
+      "output_tokens": 17,
+      "itl": 0.0030267816182458773,
+      "status": "ok"
+    },
+    {
+      "input_length": 29265,
+      "output_length": 448,
+      "num_hash_ids": 58,
+      "ttft": 0.16526634083129466,
+      "total_time": 0.9331499738618731,
+      "output_tokens": 256,
+      "itl": 0.003010633553140888,
+      "status": "ok"
+    },
+    {
+      "input_length": 916,
+      "output_length": 265,
+      "num_hash_ids": 2,
+      "ttft": 0.044934072997421026,
+      "total_time": 0.8054682090878487,
+      "output_tokens": 256,
+      "itl": 0.002981773031619834,
+      "status": "ok"
+    },
+    {
+      "input_length": 9227,
+      "output_length": 160,
+      "num_hash_ids": 19,
+      "ttft": 0.16465335292741656,
+      "total_time": 0.1648286550771445,
+      "output_tokens": 0,
+      "itl": null,
+      "status": "ok"
+    },
+    {
+      "input_length": 8520,
+      "output_length": 232,
+      "num_hash_ids": 17,
+      "ttft": 0.166085931006819,
+      "total_time": 0.16611016495153308,
+      "output_tokens": 0,
+      "itl": null,
+      "status": "ok"
+    },
+    {
+      "input_length": 2885,
+      "output_length": 613,
+      "num_hash_ids": 6,
+      "ttft": 0.14399181306362152,
+      "total_time": 0.9110894750338048,
+      "output_tokens": 256,
+      "itl": 0.0030076400623382893,
+      "status": "ok"
+    },
+    {
+      "input_length": 12000,
+      "output_length": 529,
+      "num_hash_ids": 24,
+      "ttft": 0.16533248405903578,
+      "total_time": 0.5842778750229627,
+      "output_tokens": 139,
+      "itl": 0.003011080419536734,
+      "status": "ok"
+    },
+    {
+      "input_length": 87172,
+      "output_length": 7,
+      "num_hash_ids": 171,
+      "ttft": 0.1659538249950856,
+      "total_time": 0.1692935519386083,
+      "output_tokens": 1,
+      "itl": null,
+      "status": "ok"
+    },
+    {
+      "input_length": 2428,
+      "output_length": 508,
+      "num_hash_ids": 5,
+      "ttft": 0.11916483589448035,
+      "total_time": 0.8448073659092188,
+      "output_tokens": 256,
+      "itl": 0.002845046886553367,
+      "status": "ok"
+    },
+    {
+      "input_length": 22808,
+      "output_length": 463,
+      "num_hash_ids": 45,
+      "ttft": 0.1671710389200598,
+      "total_time": 0.4134059869684279,
+      "output_tokens": 86,
+      "itl": 0.0028577728005235686,
+      "status": "ok"
+    },
+    {
+      "input_length": 8619,
+      "output_length": 593,
+      "num_hash_ids": 17,
+      "ttft": 0.16531241103075445,
+      "total_time": 0.894585439004004,
+      "output_tokens": 255,
+      "itl": 0.002870534496257214,
+      "status": "ok"
+    },
+    {
+      "input_length": 1087,
+      "output_length": 505,
+      "num_hash_ids": 3,
+      "ttft": 0.07138449093326926,
+      "total_time": 0.793364361859858,
+      "output_tokens": 256,
+      "itl": 0.0028306882198461717,
+      "status": "ok"
+    },
+    {
+      "input_length": 15454,
+      "output_length": 338,
+      "num_hash_ids": 31,
+      "ttft": 0.16665844107046723,
+      "total_time": 0.16681286809034646,
+      "output_tokens": 0,
+      "itl": null,
+      "status": "ok"
+    },
+    {
+      "input_length": 69645,
+      "output_length": 400,
+      "num_hash_ids": 137,
+      "ttft": 0.16639484884217381,
+      "total_time": 0.16642029583454132,
+      "output_tokens": 0,
+      "itl": null,
+      "status": "ok"
+    },
+    {
+      "input_length": 2392,
+      "output_length": 621,
+      "num_hash_ids": 5,
+      "ttft": 0.12093550898134708,
+      "total_time": 0.8469271229114383,
+      "output_tokens": 256,
+      "itl": 0.002846525846889206,
+      "status": "ok"
+    },
+    {
+      "input_length": 11527,
+      "output_length": 373,
+      "num_hash_ids": 23,
+      "ttft": 0.16530389478430152,
+      "total_time": 0.9305395588744432,
+      "output_tokens": 256,
+      "itl": 0.0030008336236956074,
+      "status": "ok"
+    },
+    {
+      "input_length": 27152,
+      "output_length": 216,
+      "num_hash_ids": 54,
+      "ttft": 0.1667538459878415,
+      "total_time": 0.1669227289967239,
+      "output_tokens": 0,
+      "itl": null,
+      "status": "ok"
+    },
+    {
+      "input_length": 16464,
+      "output_length": 182,
+      "num_hash_ids": 33,
+      "ttft": 0.16609961609356105,
+      "total_time": 0.7116498220711946,
+      "output_tokens": 182,
+      "itl": 0.003013211939206028,
+      "status": "ok"
+    },
+    {
+      "input_length": 6053,
+      "output_length": 89,
+      "num_hash_ids": 12,
+      "ttft": 0.16335628693923354,
+      "total_time": 0.42869189102202654,
+      "output_tokens": 89,
+      "itl": 0.0030134816929189997,
+      "status": "ok"
+    },
+    {
+      "input_length": 1206,
+      "output_length": 223,
+      "num_hash_ids": 3,
+      "ttft": 0.06360805104486644,
+      "total_time": 0.7274500699713826,
+      "output_tokens": 223,
+      "itl": 0.002989671716407814,
+      "status": "ok"
+    },
+    {
+      "input_length": 6326,
+      "output_length": 28,
+      "num_hash_ids": 13,
+      "ttft": 0.16363033093512058,
+      "total_time": 0.24531349586322904,
+      "output_tokens": 28,
+      "itl": 0.003018684521386469,
+      "status": "ok"
+    },
+    {
+      "input_length": 3535,
+      "output_length": 228,
+      "num_hash_ids": 7,
+      "ttft": 0.1651554259005934,
+      "total_time": 0.849675928009674,
+      "output_tokens": 228,
+      "itl": 0.0030153967267813136,
+      "status": "ok"
+    },
+    {
+      "input_length": 8487,
+      "output_length": 306,
+      "num_hash_ids": 17,
+      "ttft": 0.16584055707789958,
+      "total_time": 0.8950283059384674,
+      "output_tokens": 256,
+      "itl": 0.0028589334905001463,
+      "status": "ok"
+    },
+    {
+      "input_length": 897,
+      "output_length": 574,
+      "num_hash_ids": 2,
+      "ttft": 0.04295252216979861,
+      "total_time": 0.8636177850421518,
+      "output_tokens": 256,
+      "itl": 0.0032176464741282603,
+      "status": "ok"
+    },
+    {
+      "input_length": 21279,
+      "output_length": 111,
+      "num_hash_ids": 42,
+      "ttft": 0.1640997938811779,
+      "total_time": 0.1642398308031261,
+      "output_tokens": 0,
+      "itl": null,
+      "status": "ok"
+    },
+    {
+      "input_length": 23379,
+      "output_length": 616,
+      "num_hash_ids": 46,
+      "ttft": 0.16619294905103743,
+      "total_time": 0.9334703260101378,
+      "output_tokens": 256,
+      "itl": 0.0030084440155940897,
+      "status": "ok"
+    },
+    {
+      "input_length": 2014,
+      "output_length": 10,
+      "num_hash_ids": 4,
+      "ttft": 0.09610123909078538,
+      "total_time": 0.12181535107083619,
+      "output_tokens": 10,
+      "itl": 0.002845954434532258,
+      "status": "ok"
+    },
+    {
+      "input_length": 3024,
+      "output_length": 111,
+      "num_hash_ids": 6,
+      "ttft": 0.04532833700068295,
+      "total_time": 0.4041990179102868,
+      "output_tokens": 111,
+      "itl": 0.003261304418133064,
+      "status": "ok"
+    },
+    {
+      "input_length": 907,
+      "output_length": 396,
+      "num_hash_ids": 2,
+      "ttft": 0.04277239600196481,
+      "total_time": 0.757456187158823,
+      "output_tokens": 256,
+      "itl": 0.002801947768631519,
+      "status": "ok"
+    },
+    {
+      "input_length": 5164,
+      "output_length": 494,
+      "num_hash_ids": 11,
+      "ttft": 0.16537716309539974,
+      "total_time": 0.9321946001145989,
+      "output_tokens": 256,
+      "itl": 0.0030061804196413826,
+      "status": "ok"
+    },
+    {
+      "input_length": 896,
+      "output_length": 439,
+      "num_hash_ids": 2,
+      "ttft": 0.04437904409132898,
+      "total_time": 0.7643508450128138,
+      "output_tokens": 256,
+      "itl": 0.0028227946702756132,
+      "status": "ok"
+    },
+    {
+      "input_length": 1895,
+      "output_length": 456,
+      "num_hash_ids": 4,
+      "ttft": 0.09509031102061272,
+      "total_time": 0.8201388760935515,
+      "output_tokens": 256,
+      "itl": 0.0028425613290392884,
+      "status": "ok"
+    },
+    {
+      "input_length": 13183,
+      "output_length": 566,
+      "num_hash_ids": 26,
+      "ttft": 0.16816146299242973,
+      "total_time": 0.8963986460585147,
+      "output_tokens": 256,
+      "itl": 0.0028552482361156564,
+      "status": "ok"
+    },
+    {
+      "input_length": 49948,
+      "output_length": 173,
+      "num_hash_ids": 98,
+      "ttft": 0.16436447692103684,
+      "total_time": 0.6828626620117575,
+      "output_tokens": 173,
+      "itl": 0.0030138433956930976,
+      "status": "ok"
+    },
+    {
+      "input_length": 2158,
+      "output_length": 604,
+      "num_hash_ids": 5,
+      "ttft": 0.11659174901433289,
+      "total_time": 0.8427809600252658,
+      "output_tokens": 256,
+      "itl": 0.0028477046392200622,
+      "status": "ok"
+    },
+    {
+      "input_length": 1085,
+      "output_length": 75,
+      "num_hash_ids": 3,
+      "ttft": 0.06473485310561955,
+      "total_time": 0.274382253177464,
+      "output_tokens": 75,
+      "itl": 0.002832731540390366,
+      "status": "ok"
+    },
+    {
+      "input_length": 5939,
+      "output_length": 15,
+      "num_hash_ids": 12,
+      "ttft": 0.16540287085808814,
+      "total_time": 0.2055865959264338,
+      "output_tokens": 15,
+      "itl": 0.002868586003647319,
+      "status": "ok"
+    },
+    {
+      "input_length": 11244,
+      "output_length": 453,
+      "num_hash_ids": 22,
+      "ttft": 0.16524082887917757,
+      "total_time": 0.9301579738967121,
+      "output_tokens": 256,
+      "itl": 0.0029991198002415546,
+      "status": "ok"
+    },
+    {
+      "input_length": 15418,
+      "output_length": 534,
+      "num_hash_ids": 31,
+      "ttft": 0.16494317818433046,
+      "total_time": 0.9337648921646178,
+      "output_tokens": 256,
+      "itl": 0.0030148892426023295,
+      "status": "ok"
+    },
+    {
+      "input_length": 24621,
+      "output_length": 362,
+      "num_hash_ids": 49,
+      "ttft": 0.16598153091035783,
+      "total_time": 0.4176683898549527,
+      "output_tokens": 88,
+      "itl": 0.002854874815213783,
+      "status": "ok"
+    },
+    {
+      "input_length": 914,
+      "output_length": 387,
+      "num_hash_ids": 2,
+      "ttft": 0.043010823894292116,
+      "total_time": 0.8025545270647854,
+      "output_tokens": 256,
+      "itl": 0.0029780927652894866,
+      "status": "ok"
+    },
+    {
+      "input_length": 2187,
+      "output_length": 186,
+      "num_hash_ids": 5,
+      "ttft": 0.12010333384387195,
+      "total_time": 0.1202020039781928,
+      "output_tokens": 0,
+      "itl": null,
+      "status": "ok"
+    },
+    {
+      "input_length": 9421,
+      "output_length": 17,
+      "num_hash_ids": 19,
+      "ttft": 0.1651677859481424,
+      "total_time": 0.21121267997659743,
+      "output_tokens": 17,
+      "itl": 0.0028695019282167777,
+      "status": "ok"
+    },
+    {
+      "input_length": 917,
+      "output_length": 21,
+      "num_hash_ids": 2,
+      "ttft": 0.042365782894194126,
+      "total_time": 0.09344859980046749,
+      "output_tokens": 21,
+      "itl": 0.0025487839011475444,
+      "status": "ok"
+    },
+    {
+      "input_length": 945,
+      "output_length": 536,
+      "num_hash_ids": 2,
+      "ttft": 0.043627262115478516,
+      "total_time": 0.8024373941589147,
+      "output_tokens": 256,
+      "itl": 0.0029749626549435597,
+      "status": "ok"
+    },
+    {
+      "input_length": 1902,
+      "output_length": 720,
+      "num_hash_ids": 4,
+      "ttft": 0.09611570695415139,
+      "total_time": 0.09625869593583047,
+      "output_tokens": 0,
+      "itl": null,
+      "status": "ok"
+    },
+    {
+      "input_length": 7833,
+      "output_length": 374,
+      "num_hash_ids": 16,
+      "ttft": 0.16392653598450124,
+      "total_time": 0.9333763439208269,
+      "output_tokens": 256,
+      "itl": 0.0030173506313825355,
+      "status": "ok"
+    },
+    {
+      "input_length": 1083,
+      "output_length": 481,
+      "num_hash_ids": 3,
+      "ttft": 0.063254568958655,
+      "total_time": 0.8233774909749627,
+      "output_tokens": 256,
+      "itl": 0.0029805204036700375,
+      "status": "ok"
+    },
+    {
+      "input_length": 2986,
+      "output_length": 436,
+      "num_hash_ids": 6,
+      "ttft": 0.14105122606270015,
+      "total_time": 0.9094078070484102,
+      "output_tokens": 256,
+      "itl": 0.003012167137371851,
+      "status": "ok"
+    },
+    {
+      "input_length": 13242,
+      "output_length": 434,
+      "num_hash_ids": 26,
+      "ttft": 0.16476742387749255,
+      "total_time": 0.8937503669876605,
+      "output_tokens": 256,
+      "itl": 0.0028582768432576866,
+      "status": "ok"
+    },
+    {
+      "input_length": 5682,
+      "output_length": 35,
+      "num_hash_ids": 12,
+      "ttft": 0.1639875101391226,
+      "total_time": 0.26105389604344964,
+      "output_tokens": 35,
+      "itl": 0.0028511937913101386,
+      "status": "ok"
+    },
+    {
+      "input_length": 5654,
+      "output_length": 442,
+      "num_hash_ids": 12,
+      "ttft": 0.16488004592247307,
+      "total_time": 0.7483811110723764,
+      "output_tokens": 204,
+      "itl": 0.002857618231161181,
+      "status": "ok"
+    },
+    {
+      "input_length": 898,
+      "output_length": 906,
+      "num_hash_ids": 2,
+      "ttft": 0.042783684097230434,
+      "total_time": 0.7972734689246863,
+      "output_tokens": 256,
+      "itl": 0.0029586485176182845,
+      "status": "ok"
+    },
+    {
+      "input_length": 41053,
+      "output_length": 575,
+      "num_hash_ids": 81,
+      "ttft": 0.16610251716338098,
+      "total_time": 0.9330045799724758,
+      "output_tokens": 256,
+      "itl": 0.0030069157800765014,
+      "status": "ok"
+    },
+    {
+      "input_length": 18720,
+      "output_length": 109,
+      "num_hash_ids": 37,
+      "ttft": 0.16555050807073712,
+      "total_time": 0.4909175978973508,
+      "output_tokens": 109,
+      "itl": 0.0030111813598691865,
+      "status": "ok"
+    },
+    {
+      "input_length": 12849,
+      "output_length": 3,
+      "num_hash_ids": 26,
+      "ttft": 0.16551788989454508,
+      "total_time": 0.17141464189626276,
+      "output_tokens": 3,
+      "itl": 0.0028775924583896995,
+      "status": "ok"
+    },
+    {
+      "input_length": 21641,
+      "output_length": 467,
+      "num_hash_ids": 43,
+      "ttft": 0.16726114507764578,
+      "total_time": 0.1674409881234169,
+      "output_tokens": 0,
+      "itl": null,
+      "status": "ok"
+    },
+    {
+      "input_length": 976,
+      "output_length": 237,
+      "num_hash_ids": 2,
+      "ttft": 0.042876539984717965,
+      "total_time": 0.7035176188219339,
+      "output_tokens": 237,
+      "itl": 0.0027988758638611663,
+      "status": "ok"
+    },
+    {
+      "input_length": 5100,
+      "output_length": 413,
+      "num_hash_ids": 10,
+      "ttft": 0.16448989999480546,
+      "total_time": 0.932605167850852,
+      "output_tokens": 256,
+      "itl": 0.0030115249566733835,
+      "status": "ok"
+    },
+    {
+      "input_length": 6554,
+      "output_length": 254,
+      "num_hash_ids": 13,
+      "ttft": 0.1638286910019815,
+      "total_time": 0.7470878700260073,
+      "output_tokens": 204,
+      "itl": 0.002856926162144527,
+      "status": "ok"
+    },
+    {
+      "input_length": 7103,
+      "output_length": 48,
+      "num_hash_ids": 14,
+      "ttft": 0.16426157904788852,
+      "total_time": 0.29833919601514935,
+      "output_tokens": 48,
+      "itl": 0.002849694336467284,
+      "status": "ok"
+    },
+    {
+      "input_length": 895,
+      "output_length": 133,
+      "num_hash_ids": 2,
+      "ttft": 0.04322737012989819,
+      "total_time": 0.4161963991355151,
+      "output_tokens": 133,
+      "itl": 0.0028246394834819844,
+      "status": "ok"
+    },
+    {
+      "input_length": 9359,
+      "output_length": 339,
+      "num_hash_ids": 19,
+      "ttft": 0.16512221307493746,
+      "total_time": 0.9301052768714726,
+      "output_tokens": 256,
+      "itl": 0.0029991746350538496,
+      "status": "ok"
+    },
+    {
+      "input_length": 10704,
+      "output_length": 346,
+      "num_hash_ids": 21,
+      "ttft": 0.1648904988542199,
+      "total_time": 0.9496488599106669,
+      "output_tokens": 256,
+      "itl": 0.003077390427500302,
+      "status": "ok"
+    },
+    {
+      "input_length": 2016,
+      "output_length": 302,
+      "num_hash_ids": 4,
+      "ttft": 0.09484989801421762,
+      "total_time": 0.8589921901002526,
+      "output_tokens": 256,
+      "itl": 0.002996078278759823,
+      "status": "ok"
+    },
+    {
+      "input_length": 19878,
+      "output_length": 161,
+      "num_hash_ids": 39,
+      "ttft": 0.04582270095124841,
+      "total_time": 0.5263811950571835,
+      "output_tokens": 161,
+      "itl": 0.0030026621316210367,
+      "status": "ok"
+    },
+    {
+      "input_length": 102869,
+      "output_length": 401,
+      "num_hash_ids": 201,
+      "ttft": 0.16637384216301143,
+      "total_time": 0.1665915499906987,
+      "output_tokens": 0,
+      "itl": null,
+      "status": "ok"
+    },
+    {
+      "input_length": 893,
+      "output_length": 449,
+      "num_hash_ids": 2,
+      "ttft": 0.04271680419333279,
+      "total_time": 0.7951349150389433,
+      "output_tokens": 256,
+      "itl": 0.002950082791457866,
+      "status": "ok"
+    },
+    {
+      "input_length": 1383,
+      "output_length": 722,
+      "num_hash_ids": 3,
+      "ttft": 0.0626223529689014,
+      "total_time": 0.8244111889507622,
+      "output_tokens": 256,
+      "itl": 0.0029866591059401924,
+      "status": "ok"
+    },
+    {
+      "input_length": 2717,
+      "output_length": 359,
+      "num_hash_ids": 6,
+      "ttft": 0.14125253609381616,
+      "total_time": 0.9086972922086716,
+      "output_tokens": 256,
+      "itl": 0.0030090133495190565,
+      "status": "ok"
+    },
+    {
+      "input_length": 11383,
+      "output_length": 337,
+      "num_hash_ids": 23,
+      "ttft": 0.16477656387723982,
+      "total_time": 0.932133428985253,
+      "output_tokens": 256,
+      "itl": 0.003008550380849663,
+      "status": "ok"
+    },
+    {
+      "input_length": 1073,
+      "output_length": 481,
+      "num_hash_ids": 3,
+      "ttft": 0.06691420916467905,
+      "total_time": 0.45796736399643123,
+      "output_tokens": 114,
+      "itl": 0.003425032432001513,
+      "status": "ok"
+    },
+    {
+      "input_length": 1529,
+      "output_length": 513,
+      "num_hash_ids": 3,
+      "ttft": 0.06294950097799301,
+      "total_time": 0.7852084080222994,
+      "output_tokens": 256,
+      "itl": 0.0028322879489803433,
+      "status": "ok"
+    },
+    {
+      "input_length": 18306,
+      "output_length": 575,
+      "num_hash_ids": 36,
+      "ttft": 0.16559530212543905,
+      "total_time": 0.9319718889892101,
+      "output_tokens": 256,
+      "itl": 0.00300530080007864,
+      "status": "ok"
+    },
+    {
+      "input_length": 20509,
+      "output_length": 5,
+      "num_hash_ids": 41,
+      "ttft": 0.16577152092941105,
+      "total_time": 0.17811218393035233,
+      "output_tokens": 5,
+      "itl": 0.003053126740269363,
+      "status": "ok"
+    },
+    {
+      "input_length": 10938,
+      "output_length": 247,
+      "num_hash_ids": 22,
+      "ttft": 0.16577280801720917,
+      "total_time": 0.9082956900820136,
+      "output_tokens": 247,
+      "itl": 0.0030177518378988635,
+      "status": "ok"
+    },
+    {
+      "input_length": 979,
+      "output_length": 427,
+      "num_hash_ids": 2,
+      "ttft": 0.04500263882800937,
+      "total_time": 0.8040724210441113,
+      "output_tokens": 256,
+      "itl": 0.0029766524941021322,
+      "status": "ok"
+    },
+    {
+      "input_length": 11954,
+      "output_length": 463,
+      "num_hash_ids": 24,
+      "ttft": 0.1653468341100961,
+      "total_time": 0.8947315409313887,
+      "output_tokens": 256,
+      "itl": 0.002859706697328126,
+      "status": "ok"
+    },
+    {
+      "input_length": 15233,
+      "output_length": 300,
+      "num_hash_ids": 30,
+      "ttft": 0.046229842118918896,
+      "total_time": 0.7827819320373237,
+      "output_tokens": 256,
+      "itl": 0.0028878706662605206,
+      "status": "ok"
+    },
+    {
+      "input_length": 1176,
+      "output_length": 120,
+      "num_hash_ids": 3,
+      "ttft": 0.06777190486900508,
+      "total_time": 0.4048620369285345,
+      "output_tokens": 120,
+      "itl": 0.0028324805301841068,
+      "status": "ok"
+    },
+    {
+      "input_length": 7446,
+      "output_length": 319,
+      "num_hash_ids": 15,
+      "ttft": 0.16538182203657925,
+      "total_time": 0.8941304439213127,
+      "output_tokens": 256,
+      "itl": 0.002857745493597844,
+      "status": "ok"
+    },
+    {
+      "input_length": 71938,
+      "output_length": 433,
+      "num_hash_ids": 141,
+      "ttft": 0.16524480702355504,
+      "total_time": 0.35833259485661983,
+      "output_tokens": 64,
+      "itl": 0.0030110880939496886,
+      "status": "ok"
+    },
+    {
+      "input_length": 14315,
+      "output_length": 364,
+      "num_hash_ids": 28,
+      "ttft": 0.06105138291604817,
+      "total_time": 0.8819948139134794,
+      "output_tokens": 256,
+      "itl": 0.003219279274344444,
+      "status": "ok"
+    },
+    {
+      "input_length": 75501,
+      "output_length": 531,
+      "num_hash_ids": 148,
+      "ttft": 0.16601855703629553,
+      "total_time": 0.8958724760450423,
+      "output_tokens": 256,
+      "itl": 0.002861621945767718,
+      "status": "ok"
+    },
+    {
+      "input_length": 10116,
+      "output_length": 509,
+      "num_hash_ids": 20,
+      "ttft": 0.16579110105521977,
+      "total_time": 0.894962445134297,
+      "output_tokens": 256,
+      "itl": 0.0028585741059014612,
+      "status": "ok"
+    },
+    {
+      "input_length": 1341,
+      "output_length": 128,
+      "num_hash_ids": 3,
+      "ttft": 0.06482673692516983,
+      "total_time": 0.4442604340147227,
+      "output_tokens": 128,
+      "itl": 0.0029868505836471797,
+      "status": "ok"
+    },
+    {
+      "input_length": 8450,
+      "output_length": 19,
+      "num_hash_ids": 17,
+      "ttft": 0.16540129901841283,
+      "total_time": 0.21684665395878255,
+      "output_tokens": 19,
+      "itl": 0.0028461925556055373,
+      "status": "ok"
+    },
+    {
+      "input_length": 4577,
+      "output_length": 225,
+      "num_hash_ids": 9,
+      "ttft": 0.165613197023049,
+      "total_time": 0.8400125338230282,
+      "output_tokens": 225,
+      "itl": 0.003010125035611314,
+      "status": "ok"
+    },
+    {
+      "input_length": 16611,
+      "output_length": 24,
+      "num_hash_ids": 33,
+      "ttft": 0.16501471097581089,
+      "total_time": 0.23441131110303104,
+      "output_tokens": 24,
+      "itl": 0.003010590651841915,
+      "status": "ok"
+    },
+    {
+      "input_length": 4885,
+      "output_length": 353,
+      "num_hash_ids": 10,
+      "ttft": 0.16405780287459493,
+      "total_time": 0.9288350800052285,
+      "output_tokens": 256,
+      "itl": 0.0029986104626646814,
+      "status": "ok"
+    },
+    {
+      "input_length": 893,
+      "output_length": 334,
+      "num_hash_ids": 2,
+      "ttft": 0.043322490993887186,
+      "total_time": 0.9462479930371046,
+      "output_tokens": 256,
+      "itl": 0.003540258882932511,
+      "status": "ok"
+    },
+    {
+      "input_length": 9921,
+      "output_length": 356,
+      "num_hash_ids": 20,
+      "ttft": 0.16489552496932447,
+      "total_time": 0.9319795349147171,
+      "output_tokens": 256,
+      "itl": 0.003007564842518346,
+      "status": "ok"
+    },
+    {
+      "input_length": 9271,
+      "output_length": 306,
+      "num_hash_ids": 19,
+      "ttft": 0.16378536610864103,
+      "total_time": 0.8927577200811356,
+      "output_tokens": 256,
+      "itl": 0.002858152901571171,
+      "status": "ok"
+    },
+    {
+      "input_length": 2103,
+      "output_length": 508,
+      "num_hash_ids": 5,
+      "ttft": 0.09698065789416432,
+      "total_time": 0.9190925168804824,
+      "output_tokens": 256,
+      "itl": 0.0032234490702987887,
+      "status": "ok"
+    },
+    {
+      "input_length": 16554,
+      "output_length": 725,
+      "num_hash_ids": 33,
+      "ttft": 0.16415547183714807,
+      "total_time": 0.9330053778830916,
+      "output_tokens": 256,
+      "itl": 0.003015001526321558,
+      "status": "ok"
+    },
+    {
+      "input_length": 1535,
+      "output_length": 356,
+      "num_hash_ids": 3,
+      "ttft": 0.06958356406539679,
+      "total_time": 0.8328463789075613,
+      "output_tokens": 256,
+      "itl": 0.002993093270297144,
+      "status": "ok"
+    },
+    {
+      "input_length": 17027,
+      "output_length": 904,
+      "num_hash_ids": 34,
+      "ttft": 0.16576820705085993,
+      "total_time": 0.8949005240574479,
+      "output_tokens": 256,
+      "itl": 0.0028592490591108797,
+      "status": "ok"
+    },
+    {
+      "input_length": 1625,
+      "output_length": 578,
+      "num_hash_ids": 4,
+      "ttft": 0.09017071896232665,
+      "total_time": 0.8543198290280998,
+      "output_tokens": 256,
+      "itl": 0.0029961101573837156,
+      "status": "ok"
+    },
+    {
+      "input_length": 8770,
+      "output_length": 121,
+      "num_hash_ids": 18,
+      "ttft": 0.16539948899298906,
+      "total_time": 0.5270857019349933,
+      "output_tokens": 121,
+      "itl": 0.0030130350244386745,
+      "status": "ok"
+    },
+    {
+      "input_length": 16894,
+      "output_length": 431,
+      "num_hash_ids": 33,
+      "ttft": 0.16428526397794485,
+      "total_time": 0.9319275259040296,
+      "output_tokens": 256,
+      "itl": 0.0030102700469832795,
+      "status": "ok"
+    },
+    {
+      "input_length": 1577,
+      "output_length": 579,
+      "num_hash_ids": 4,
+      "ttft": 0.0956892310641706,
+      "total_time": 0.8199442729819566,
+      "output_tokens": 256,
+      "itl": 0.002839749505487727,
+      "status": "ok"
+    },
+    {
+      "input_length": 19978,
+      "output_length": 448,
+      "num_hash_ids": 40,
+      "ttft": 0.16772551997564733,
+      "total_time": 0.8970162549521774,
+      "output_tokens": 256,
+      "itl": 0.0028593504043551636,
+      "status": "ok"
+    },
+    {
+      "input_length": 898,
+      "output_length": 286,
+      "num_hash_ids": 2,
+      "ttft": 0.04328555380925536,
+      "total_time": 0.7615028929430991,
+      "output_tokens": 254,
+      "itl": 0.002838410905529211,
+      "status": "ok"
+    },
+    {
+      "input_length": 9550,
+      "output_length": 713,
+      "num_hash_ids": 19,
+      "ttft": 0.16412388603203,
+      "total_time": 0.9326430470682681,
+      "output_tokens": 256,
+      "itl": 0.003012573875158149,
+      "status": "ok"
+    },
+    {
+      "input_length": 6517,
+      "output_length": 565,
+      "num_hash_ids": 13,
+      "ttft": 0.16552465502172709,
+      "total_time": 0.894450348103419,
+      "output_tokens": 256,
+      "itl": 0.002858421663004978,
+      "status": "ok"
+    },
+    {
+      "input_length": 13538,
+      "output_length": 480,
+      "num_hash_ids": 27,
+      "ttft": 0.16578482906334102,
+      "total_time": 0.9334873689804226,
+      "output_tokens": 256,
+      "itl": 0.0030099759526623815,
+      "status": "ok"
+    },
+    {
+      "input_length": 6299,
+      "output_length": 413,
+      "num_hash_ids": 13,
+      "ttft": 0.1650520139373839,
+      "total_time": 0.9304331650491804,
+      "output_tokens": 256,
+      "itl": 0.0030009000041686437,
+      "status": "ok"
+    },
+    {
+      "input_length": 38149,
+      "output_length": 316,
+      "num_hash_ids": 75,
+      "ttft": 0.16383347800001502,
+      "total_time": 0.9313279520720243,
+      "output_tokens": 256,
+      "itl": 0.003009221662639403,
+      "status": "ok"
+    },
+    {
+      "input_length": 26356,
+      "output_length": 25,
+      "num_hash_ids": 52,
+      "ttft": 0.16565093421377242,
+      "total_time": 0.23450382612645626,
+      "output_tokens": 25,
+      "itl": 0.0028679334985402725,
+      "status": "ok"
+    },
+    {
+      "input_length": 5095,
+      "output_length": 476,
+      "num_hash_ids": 10,
+      "ttft": 0.16361990198493004,
+      "total_time": 0.892628249945119,
+      "output_tokens": 256,
+      "itl": 0.002858315725975177,
+      "status": "ok"
+    },
+    {
+      "input_length": 22075,
+      "output_length": 367,
+      "num_hash_ids": 44,
+      "ttft": 0.16494604502804577,
+      "total_time": 0.16514517297036946,
+      "output_tokens": 0,
+      "itl": null,
+      "status": "ok"
+    },
+    {
+      "input_length": 1362,
+      "output_length": 480,
+      "num_hash_ids": 3,
+      "ttft": 0.06252173404209316,
+      "total_time": 0.24155934294685721,
+      "output_tokens": 60,
+      "itl": 0.0029779536752188103,
+      "status": "ok"
+    },
+    {
+      "input_length": 6994,
+      "output_length": 461,
+      "num_hash_ids": 14,
+      "ttft": 0.16516594705171883,
+      "total_time": 0.9340521800331771,
+      "output_tokens": 256,
+      "itl": 0.003015140369169268,
+      "status": "ok"
+    },
+    {
+      "input_length": 45135,
+      "output_length": 109,
+      "num_hash_ids": 89,
+      "ttft": 0.16564607503823936,
+      "total_time": 0.49100755411200225,
+      "output_tokens": 109,
+      "itl": 0.003012306110812696,
+      "status": "ok"
+    },
+    {
+      "input_length": 965,
+      "output_length": 637,
+      "num_hash_ids": 2,
+      "ttft": 0.04244737816043198,
+      "total_time": 0.7567650640849024,
+      "output_tokens": 256,
+      "itl": 0.0028011562622280097,
+      "status": "ok"
+    },
+    {
+      "input_length": 17779,
+      "output_length": 576,
+      "num_hash_ids": 35,
+      "ttft": 0.16542061301879585,
+      "total_time": 0.8943001138977706,
+      "output_tokens": 256,
+      "itl": 0.002858263101684404,
+      "status": "ok"
+    },
+    {
+      "input_length": 37879,
+      "output_length": 532,
+      "num_hash_ids": 74,
+      "ttft": 0.16491464618593454,
+      "total_time": 0.9335782891139388,
+      "output_tokens": 256,
+      "itl": 0.0030135310118031854,
+      "status": "ok"
+    },
+    {
+      "input_length": 17583,
+      "output_length": 464,
+      "num_hash_ids": 35,
+      "ttft": 0.16439505177550018,
+      "total_time": 0.933115063002333,
+      "output_tokens": 256,
+      "itl": 0.0030144928434096717,
+      "status": "ok"
+    },
+    {
+      "input_length": 6062,
+      "output_length": 4,
+      "num_hash_ids": 12,
+      "ttft": 0.16417846991680562,
+      "total_time": 0.1728432651143521,
+      "output_tokens": 4,
+      "itl": 0.0028404147208978734,
+      "status": "ok"
+    },
+    {
+      "input_length": 14349,
+      "output_length": 501,
+      "num_hash_ids": 29,
+      "ttft": 0.16444514691829681,
+      "total_time": 0.9330191109329462,
+      "output_tokens": 256,
+      "itl": 0.003013504188799975,
+      "status": "ok"
+    },
+    {
+      "input_length": 8639,
+      "output_length": 835,
+      "num_hash_ids": 17,
+      "ttft": 0.16360894707031548,
+      "total_time": 0.932329542003572,
+      "output_tokens": 256,
+      "itl": 0.003013956034556031,
+      "status": "ok"
+    },
+    {
+      "input_length": 906,
+      "output_length": 28,
+      "num_hash_ids": 2,
+      "ttft": 0.042640788946300745,
+      "total_time": 0.11600387585349381,
+      "output_tokens": 28,
+      "itl": 0.0027163781794822877,
+      "status": "ok"
+    },
+    {
+      "input_length": 921,
+      "output_length": 452,
+      "num_hash_ids": 2,
+      "ttft": 0.04315015394240618,
+      "total_time": 0.8960956379305571,
+      "output_tokens": 256,
+      "itl": 0.003344097882326619,
+      "status": "ok"
+    },
+    {
+      "input_length": 13996,
+      "output_length": 315,
+      "num_hash_ids": 28,
+      "ttft": 0.16480043902993202,
+      "total_time": 0.8945860711392015,
+      "output_tokens": 256,
+      "itl": 0.0028613948591930025,
+      "status": "ok"
+    },
+    {
+      "input_length": 6549,
+      "output_length": 442,
+      "num_hash_ids": 13,
+      "ttft": 0.16358072310686111,
+      "total_time": 0.8912486941553652,
+      "output_tokens": 256,
+      "itl": 0.0028535090386867523,
+      "status": "ok"
+    },
+    {
+      "input_length": 5956,
+      "output_length": 17,
+      "num_hash_ids": 12,
+      "ttft": 0.16534226294606924,
+      "total_time": 0.21374882687814534,
+      "output_tokens": 17,
+      "itl": 0.003016452377778478,
+      "status": "ok"
+    },
+    {
+      "input_length": 16982,
+      "output_length": 526,
+      "num_hash_ids": 34,
+      "ttft": 0.04477482195943594,
+      "total_time": 0.8682918220292777,
+      "output_tokens": 256,
+      "itl": 0.003228900623599104,
+      "status": "ok"
+    },
+    {
+      "input_length": 7190,
+      "output_length": 26,
+      "num_hash_ids": 15,
+      "ttft": 0.04546224814839661,
+      "total_time": 0.08379714516922832,
+      "output_tokens": 26,
+      "itl": 0.0015323551185429096,
+      "status": "ok"
+    },
+    {
+      "input_length": 51186,
+      "output_length": 620,
+      "num_hash_ids": 100,
+      "ttft": 0.1655304511077702,
+      "total_time": 0.9340137080289423,
+      "output_tokens": 256,
+      "itl": 0.0030130898662130623,
+      "status": "ok"
+    },
+    {
+      "input_length": 5395,
+      "output_length": 545,
+      "num_hash_ids": 11,
+      "ttft": 0.16864807903766632,
+      "total_time": 0.9340634259860963,
+      "output_tokens": 256,
+      "itl": 0.003000967627318174,
+      "status": "ok"
+    },
+    {
+      "input_length": 13122,
+      "output_length": 172,
+      "num_hash_ids": 26,
+      "ttft": 0.16447744402103126,
+      "total_time": 0.6803904951084405,
+      "output_tokens": 172,
+      "itl": 0.0030159913044292153,
+      "status": "ok"
+    },
+    {
+      "input_length": 1641,
+      "output_length": 567,
+      "num_hash_ids": 4,
+      "ttft": 0.09501645783893764,
+      "total_time": 0.8568954030051827,
+      "output_tokens": 256,
+      "itl": 0.002987115905967121,
+      "status": "ok"
+    },
+    {
+      "input_length": 6299,
+      "output_length": 165,
+      "num_hash_ids": 13,
+      "ttft": 0.16465002205222845,
+      "total_time": 0.6590164911467582,
+      "output_tokens": 165,
+      "itl": 0.0030136506226504356,
+      "status": "ok"
+    },
+    {
+      "input_length": 23998,
+      "output_length": 645,
+      "num_hash_ids": 47,
+      "ttft": 0.1631286139599979,
+      "total_time": 0.8021730019245297,
+      "output_tokens": 212,
+      "itl": 0.0030117420097857148,
+      "status": "ok"
+    },
+    {
+      "input_length": 4054,
+      "output_length": 547,
+      "num_hash_ids": 8,
+      "ttft": 0.1647864170372486,
+      "total_time": 0.8937962541822344,
+      "output_tokens": 256,
+      "itl": 0.002858755161401396,
+      "status": "ok"
+    },
+    {
+      "input_length": 6809,
+      "output_length": 196,
+      "num_hash_ids": 14,
+      "ttft": 0.16473942389711738,
+      "total_time": 0.7227868330664933,
+      "output_tokens": 196,
+      "itl": 0.0028616574366027727,
+      "status": "ok"
+    },
+    {
+      "input_length": 3709,
+      "output_length": 300,
+      "num_hash_ids": 8,
+      "ttft": 0.16597831202670932,
+      "total_time": 0.8955210810527205,
+      "output_tokens": 256,
+      "itl": 0.0028604546662273946,
+      "status": "ok"
+    },
+    {
+      "input_length": 4535,
+      "output_length": 521,
+      "num_hash_ids": 9,
+      "ttft": 0.1656627811025828,
+      "total_time": 0.9347677570767701,
+      "output_tokens": 256,
+      "itl": 0.003015424885476629,
+      "status": "ok"
+    },
+    {
+      "input_length": 25174,
+      "output_length": 284,
+      "num_hash_ids": 50,
+      "ttft": 0.16424192395061255,
+      "total_time": 0.9324971698224545,
+      "output_tokens": 256,
+      "itl": 0.003012189949296561,
+      "status": "ok"
+    },
+    {
+      "input_length": 7911,
+      "output_length": 510,
+      "num_hash_ids": 16,
+      "ttft": 0.164229302899912,
+      "total_time": 0.8932940638624132,
+      "output_tokens": 256,
+      "itl": 0.0028585215884388664,
+      "status": "ok"
+    },
+    {
+      "input_length": 89867,
+      "output_length": 556,
+      "num_hash_ids": 176,
+      "ttft": 0.16524664894677699,
+      "total_time": 0.894187088124454,
+      "output_tokens": 256,
+      "itl": 0.0028579826201951385,
+      "status": "ok"
+    },
+    {
+      "input_length": 892,
+      "output_length": 78,
+      "num_hash_ids": 2,
+      "ttft": 0.04255138384178281,
+      "total_time": 0.41820029402151704,
+      "output_tokens": 78,
+      "itl": 0.00487823519771072,
+      "status": "ok"
+    },
+    {
+      "input_length": 1372,
+      "output_length": 427,
+      "num_hash_ids": 3,
+      "ttft": 0.06533999694511294,
+      "total_time": 0.8271781119983643,
+      "output_tokens": 256,
+      "itl": 0.0029871395999090927,
+      "status": "ok"
+    },
+    {
+      "input_length": 10089,
+      "output_length": 421,
+      "num_hash_ids": 20,
+      "ttft": 0.1644257081206888,
+      "total_time": 0.8926311701070517,
+      "output_tokens": 256,
+      "itl": 0.0028550454433642182,
+      "status": "ok"
+    },
+    {
+      "input_length": 906,
+      "output_length": 28,
+      "num_hash_ids": 2,
+      "ttft": 0.04331549885682762,
+      "total_time": 0.11749914288520813,
+      "output_tokens": 28,
+      "itl": 0.002743337665581041,
+      "status": "ok"
+    },
+    {
+      "input_length": 20529,
+      "output_length": 362,
+      "num_hash_ids": 41,
+      "ttft": 0.16592743899673223,
+      "total_time": 0.9348158878274262,
+      "output_tokens": 256,
+      "itl": 0.0030151609997904182,
+      "status": "ok"
+    },
+    {
+      "input_length": 1035,
+      "output_length": 183,
+      "num_hash_ids": 3,
+      "ttft": 0.06404477590695024,
+      "total_time": 0.3217649108264595,
+      "output_tokens": 91,
+      "itl": 0.002827613888722327,
+      "status": "ok"
+    },
+    {
+      "input_length": 11341,
+      "output_length": 16,
+      "num_hash_ids": 23,
+      "ttft": 0.1664579079952091,
+      "total_time": 0.20969894900918007,
+      "output_tokens": 16,
+      "itl": 0.002881249925121665,
+      "status": "ok"
+    },
+    {
+      "input_length": 18081,
+      "output_length": 428,
+      "num_hash_ids": 36,
+      "ttft": 0.16334566194564104,
+      "total_time": 0.9322395960334688,
+      "output_tokens": 256,
+      "itl": 0.0030151732357255384,
+      "status": "ok"
+    },
+    {
+      "input_length": 1309,
+      "output_length": 111,
+      "num_hash_ids": 3,
+      "ttft": 0.06927146087400615,
+      "total_time": 0.3913720529526472,
+      "output_tokens": 111,
+      "itl": 0.002927945463240824,
+      "status": "ok"
+    },
+    {
+      "input_length": 7764,
+      "output_length": 328,
+      "num_hash_ids": 16,
+      "ttft": 0.16402459098026156,
+      "total_time": 0.5188381678890437,
+      "output_tokens": 118,
+      "itl": 0.003003590853693776,
+      "status": "ok"
+    },
+    {
+      "input_length": 75162,
+      "output_length": 456,
+      "num_hash_ids": 147,
+      "ttft": 0.16481311712414026,
+      "total_time": 0.9309499021619558,
+      "output_tokens": 256,
+      "itl": 0.003003729647025466,
+      "status": "ok"
+    },
+    {
+      "input_length": 11404,
+      "output_length": 445,
+      "num_hash_ids": 23,
+      "ttft": 0.14314526598900557,
+      "total_time": 0.9301397581584752,
+      "output_tokens": 256,
+      "itl": 0.0030861464438631256,
+      "status": "ok"
+    },
+    {
+      "input_length": 15174,
+      "output_length": 13,
+      "num_hash_ids": 30,
+      "ttft": 0.16538317501544952,
+      "total_time": 0.2015637659933418,
+      "output_tokens": 13,
+      "itl": 0.0030129553245690963,
+      "status": "ok"
+    },
+    {
+      "input_length": 14794,
+      "output_length": 409,
+      "num_hash_ids": 29,
+      "ttft": 0.1649748790077865,
+      "total_time": 0.9338756159413606,
+      "output_tokens": 256,
+      "itl": 0.00301520615706549,
+      "status": "ok"
+    },
+    {
+      "input_length": 19716,
+      "output_length": 445,
+      "num_hash_ids": 39,
+      "ttft": 0.16458269790746272,
+      "total_time": 0.8941393219865859,
+      "output_tokens": 256,
+      "itl": 0.0028609039882818857,
+      "status": "ok"
+    },
+    {
+      "input_length": 1757,
+      "output_length": 431,
+      "num_hash_ids": 4,
+      "ttft": 0.0894538948778063,
+      "total_time": 0.8136763239745051,
+      "output_tokens": 256,
+      "itl": 0.002839670102020689,
+      "status": "ok"
+    },
+    {
+      "input_length": 2520,
+      "output_length": 549,
+      "num_hash_ids": 5,
+      "ttft": 0.1218383708037436,
+      "total_time": 0.8877385128289461,
+      "output_tokens": 256,
+      "itl": 0.003002858526237747,
+      "status": "ok"
+    },
+    {
+      "input_length": 16706,
+      "output_length": 445,
+      "num_hash_ids": 33,
+      "ttft": 0.16450684610754251,
+      "total_time": 0.9340442481916398,
+      "output_tokens": 256,
+      "itl": 0.0030171117882299074,
+      "status": "ok"
+    },
+    {
+      "input_length": 1887,
+      "output_length": 312,
+      "num_hash_ids": 4,
+      "ttft": 0.09140214696526527,
+      "total_time": 0.8545815090183169,
+      "output_tokens": 256,
+      "itl": 0.002992073471164879,
+      "status": "ok"
+    },
+    {
+      "input_length": 27294,
+      "output_length": 268,
+      "num_hash_ids": 54,
+      "ttft": 0.04542321711778641,
+      "total_time": 0.7508764131926,
+      "output_tokens": 256,
+      "itl": 0.0027657269801506226,
+      "status": "ok"
+    },
+    {
+      "input_length": 1902,
+      "output_length": 654,
+      "num_hash_ids": 4,
+      "ttft": 0.0955036950763315,
+      "total_time": 0.859613856067881,
+      "output_tokens": 256,
+      "itl": 0.002996035580358961,
+      "status": "ok"
+    },
+    {
+      "input_length": 17869,
+      "output_length": 881,
+      "num_hash_ids": 35,
+      "ttft": 0.16389016597531736,
+      "total_time": 0.8922991710714996,
+      "output_tokens": 256,
+      "itl": 0.002856415772226219,
+      "status": "ok"
+    },
+    {
+      "input_length": 9412,
+      "output_length": 555,
+      "num_hash_ids": 19,
+      "ttft": 0.16647812607698143,
+      "total_time": 0.8957047341391444,
+      "output_tokens": 256,
+      "itl": 0.0028596076310849657,
+      "status": "ok"
+    },
+    {
+      "input_length": 3954,
+      "output_length": 297,
+      "num_hash_ids": 8,
+      "ttft": 0.165364651940763,
+      "total_time": 0.9333861770574003,
+      "output_tokens": 256,
+      "itl": 0.0030113129018276346,
+      "status": "ok"
+    },
+    {
+      "input_length": 12436,
+      "output_length": 1644,
+      "num_hash_ids": 25,
+      "ttft": 0.16409917292185128,
+      "total_time": 0.9328203238546848,
+      "output_tokens": 256,
+      "itl": 0.003013913301458838,
+      "status": "ok"
+    },
+    {
+      "input_length": 5240,
+      "output_length": 534,
+      "num_hash_ids": 11,
+      "ttft": 0.16547300689853728,
+      "total_time": 0.8945688318926841,
+      "output_tokens": 256,
+      "itl": 0.0028591014472219875,
+      "status": "ok"
+    },
+    {
+      "input_length": 55009,
+      "output_length": 644,
+      "num_hash_ids": 108,
+      "ttft": 0.165231202961877,
+      "total_time": 0.931574733927846,
+      "output_tokens": 256,
+      "itl": 0.003004721380478027,
+      "status": "ok"
+    },
+    {
+      "input_length": 45924,
+      "output_length": 24,
+      "num_hash_ids": 90,
+      "ttft": 0.16381132206879556,
+      "total_time": 0.22956810612231493,
+      "output_tokens": 24,
+      "itl": 0.0028530868661144505,
+      "status": "ok"
+    },
+    {
+      "input_length": 903,
+      "output_length": 171,
+      "num_hash_ids": 2,
+      "ttft": 0.043226928915828466,
+      "total_time": 0.5454344970639795,
+      "output_tokens": 171,
+      "itl": 0.002953500077402329,
+      "status": "ok"
+    },
+    {
+      "input_length": 897,
+      "output_length": 94,
+      "num_hash_ids": 2,
+      "ttft": 0.04288336797617376,
+      "total_time": 0.3145147068426013,
+      "output_tokens": 94,
+      "itl": 0.0029204791381714805,
+      "status": "ok"
+    },
+    {
+      "input_length": 19085,
+      "output_length": 247,
+      "num_hash_ids": 38,
+      "ttft": 0.1643950128927827,
+      "total_time": 0.16442069900222123,
+      "output_tokens": 0,
+      "itl": null,
+      "status": "ok"
+    },
+    {
+      "input_length": 3142,
+      "output_length": 398,
+      "num_hash_ids": 7,
+      "ttft": 0.166029523126781,
+      "total_time": 0.3498348610009998,
+      "output_tokens": 61,
+      "itl": 0.003006630332674831,
+      "status": "ok"
+    },
+    {
+      "input_length": 6603,
+      "output_length": 20,
+      "num_hash_ids": 13,
+      "ttft": 0.16322279791347682,
+      "total_time": 0.2205453929491341,
+      "output_tokens": 20,
+      "itl": 0.0030156766848736687,
+      "status": "ok"
+    },
+    {
+      "input_length": 39419,
+      "output_length": 243,
+      "num_hash_ids": 77,
+      "ttft": 0.16573617793619633,
+      "total_time": 0.8960674121044576,
+      "output_tokens": 243,
+      "itl": 0.003017788636498153,
+      "status": "ok"
+    },
+    {
+      "input_length": 2787,
+      "output_length": 415,
+      "num_hash_ids": 6,
+      "ttft": 0.1449482860043645,
+      "total_time": 0.9124672950711101,
+      "output_tokens": 256,
+      "itl": 0.0030092318624477176,
+      "status": "ok"
+    },
+    {
+      "input_length": 9177,
+      "output_length": 531,
+      "num_hash_ids": 18,
+      "ttft": 0.16561566502787173,
+      "total_time": 0.8953427069354802,
+      "output_tokens": 256,
+      "itl": 0.002861049984052193,
+      "status": "ok"
+    },
+    {
+      "input_length": 36053,
+      "output_length": 632,
+      "num_hash_ids": 71,
+      "ttft": 0.16505285096354783,
+      "total_time": 0.8940575320739299,
+      "output_tokens": 256,
+      "itl": 0.0028587415805269105,
+      "status": "ok"
+    },
+    {
+      "input_length": 1056,
+      "output_length": 3,
+      "num_hash_ids": 3,
+      "ttft": 0.07169525208882987,
+      "total_time": 0.07760090404190123,
+      "output_tokens": 3,
+      "itl": 0.0029052209574729204,
+      "status": "ok"
+    },
+    {
+      "input_length": 13883,
+      "output_length": 775,
+      "num_hash_ids": 28,
+      "ttft": 0.16479287086986005,
+      "total_time": 0.9332762099802494,
+      "output_tokens": 256,
+      "itl": 0.003013069063023317,
+      "status": "ok"
+    },
+    {
+      "input_length": 8767,
+      "output_length": 449,
+      "num_hash_ids": 18,
+      "ttft": 0.1658805040642619,
+      "total_time": 0.9343290398828685,
+      "output_tokens": 256,
+      "itl": 0.003012582235147848,
+      "status": "ok"
+    },
+    {
+      "input_length": 13742,
+      "output_length": 304,
+      "num_hash_ids": 27,
+      "ttft": 0.16500500706024468,
+      "total_time": 0.9464737910311669,
+      "output_tokens": 256,
+      "itl": 0.0030639346707247053,
+      "status": "ok"
+    },
+    {
+      "input_length": 7736,
+      "output_length": 347,
+      "num_hash_ids": 16,
+      "ttft": 0.1646910880226642,
+      "total_time": 1.0023471978493035,
+      "output_tokens": 256,
+      "itl": 0.0032843864230694725,
+      "status": "ok"
+    },
+    {
+      "input_length": 7617,
+      "output_length": 435,
+      "num_hash_ids": 15,
+      "ttft": 0.16475206310860813,
+      "total_time": 0.8941101201344281,
+      "output_tokens": 256,
+      "itl": 0.002859599348705481,
+      "status": "ok"
+    },
+    {
+      "input_length": 899,
+      "output_length": 418,
+      "num_hash_ids": 2,
+      "ttft": 0.04204996698535979,
+      "total_time": 0.7557479080278426,
+      "output_tokens": 256,
+      "itl": 0.0027983775097584606,
+      "status": "ok"
+    },
+    {
+      "input_length": 4701,
+      "output_length": 446,
+      "num_hash_ids": 10,
+      "ttft": 0.16482089599594474,
+      "total_time": 0.8936211210675538,
+      "output_tokens": 256,
+      "itl": 0.00285794325081595,
+      "status": "ok"
+    },
+    {
+      "input_length": 24132,
+      "output_length": 2000,
+      "num_hash_ids": 48,
+      "ttft": 0.16403320897370577,
+      "total_time": 0.9320078340824693,
+      "output_tokens": 256,
+      "itl": 0.003011566870754548,
+      "status": "ok"
+    },
+    {
+      "input_length": 50465,
+      "output_length": 621,
+      "num_hash_ids": 99,
+      "ttft": 0.04533573589287698,
+      "total_time": 0.8516685799695551,
+      "output_tokens": 256,
+      "itl": 0.0031615655257494425,
+      "status": "ok"
+    },
+    {
+      "input_length": 5714,
+      "output_length": 5,
+      "num_hash_ids": 12,
+      "ttft": 0.1654163480270654,
+      "total_time": 0.17705835588276386,
+      "output_tokens": 5,
+      "itl": 0.002904564724303782,
+      "status": "ok"
+    },
+    {
+      "input_length": 914,
+      "output_length": 275,
+      "num_hash_ids": 2,
+      "ttft": 0.04252515500411391,
+      "total_time": 0.798411768162623,
+      "output_tokens": 256,
+      "itl": 0.0029638167571130335,
+      "status": "ok"
+    },
+    {
+      "input_length": 14434,
+      "output_length": 385,
+      "num_hash_ids": 29,
+      "ttft": 0.04620863706804812,
+      "total_time": 0.7945046050008386,
+      "output_tokens": 256,
+      "itl": 0.002934404498185305,
+      "status": "ok"
+    },
+    {
+      "input_length": 3025,
+      "output_length": 673,
+      "num_hash_ids": 6,
+      "ttft": 0.14303110702894628,
+      "total_time": 0.9107614699751139,
+      "output_tokens": 256,
+      "itl": 0.0030098418312549005,
+      "status": "ok"
+    },
+    {
+      "input_length": 8532,
+      "output_length": 38,
+      "num_hash_ids": 17,
+      "ttft": 0.04628492286428809,
+      "total_time": 0.11973754595965147,
+      "output_tokens": 38,
+      "itl": 0.0019845354081307713,
+      "status": "ok"
+    },
+    {
+      "input_length": 21398,
+      "output_length": 384,
+      "num_hash_ids": 42,
+      "ttft": 0.1634318120777607,
+      "total_time": 0.16356876608915627,
+      "output_tokens": 0,
+      "itl": null,
+      "status": "ok"
+    },
+    {
+      "input_length": 979,
+      "output_length": 140,
+      "num_hash_ids": 2,
+      "ttft": 0.04281140910461545,
+      "total_time": 0.4300015701446682,
+      "output_tokens": 140,
+      "itl": 0.00278417338121334,
+      "status": "ok"
+    },
+    {
+      "input_length": 3944,
+      "output_length": 515,
+      "num_hash_ids": 8,
+      "ttft": 0.1665102131664753,
+      "total_time": 0.16676285909488797,
+      "output_tokens": 0,
+      "itl": null,
+      "status": "ok"
+    },
+    {
+      "input_length": 10357,
+      "output_length": 35,
+      "num_hash_ids": 21,
+      "ttft": 0.16438810504041612,
+      "total_time": 0.26711829099804163,
+      "output_tokens": 35,
+      "itl": 0.0030167334411731537,
+      "status": "ok"
+    },
+    {
+      "input_length": 17188,
+      "output_length": 595,
+      "num_hash_ids": 34,
+      "ttft": 0.16493913298472762,
+      "total_time": 0.9342121100053191,
+      "output_tokens": 256,
+      "itl": 0.0030166334783037502,
+      "status": "ok"
+    },
+    {
+      "input_length": 67220,
+      "output_length": 358,
+      "num_hash_ids": 132,
+      "ttft": 0.1647234931588173,
+      "total_time": 0.9329766340088099,
+      "output_tokens": 256,
+      "itl": 0.00301194388200255,
+      "status": "ok"
+    },
+    {
+      "input_length": 10275,
+      "output_length": 269,
+      "num_hash_ids": 21,
+      "ttft": 0.16631731600500643,
+      "total_time": 0.8952657300978899,
+      "output_tokens": 256,
+      "itl": 0.002858037741708697,
+      "status": "ok"
+    },
+    {
+      "input_length": 8659,
+      "output_length": 831,
+      "num_hash_ids": 17,
+      "ttft": 0.16433598101139069,
+      "total_time": 0.8102617191616446,
+      "output_tokens": 214,
+      "itl": 0.0030161889812126406,
+      "status": "ok"
+    },
+    {
+      "input_length": 13630,
+      "output_length": 510,
+      "num_hash_ids": 27,
+      "ttft": 0.16460494184866548,
+      "total_time": 0.894221639027819,
+      "output_tokens": 256,
+      "itl": 0.0028606478435297808,
+      "status": "ok"
+    },
+    {
+      "input_length": 1661,
+      "output_length": 93,
+      "num_hash_ids": 4,
+      "ttft": 0.08954823482781649,
+      "total_time": 0.35117698879912496,
+      "output_tokens": 93,
+      "itl": 0.00284351139207897,
+      "status": "ok"
+    },
+    {
+      "input_length": 14980,
+      "output_length": 32,
+      "num_hash_ids": 30,
+      "ttft": 0.16489402088336647,
+      "total_time": 0.25875038793310523,
+      "output_tokens": 32,
+      "itl": 0.003023799741640687,
+      "status": "ok"
+    },
+    {
+      "input_length": 1479,
+      "output_length": 41,
+      "num_hash_ids": 3,
+      "ttft": 0.0628916178829968,
+      "total_time": 0.18242657696828246,
+      "output_tokens": 41,
+      "itl": 0.0029847901547327637,
+      "status": "ok"
+    },
+    {
+      "input_length": 24495,
+      "output_length": 306,
+      "num_hash_ids": 48,
+      "ttft": 0.16531512909568846,
+      "total_time": 0.9849429780151695,
+      "output_tokens": 256,
+      "itl": 0.0032141294120354397,
+      "status": "ok"
+    },
+    {
+      "input_length": 3378,
+      "output_length": 617,
+      "num_hash_ids": 7,
+      "ttft": 0.16483590612187982,
+      "total_time": 0.9327105241827667,
+      "output_tokens": 256,
+      "itl": 0.0030107693883645184,
+      "status": "ok"
+    },
+    {
+      "input_length": 9325,
+      "output_length": 644,
+      "num_hash_ids": 19,
+      "ttft": 0.1653638780117035,
+      "total_time": 0.3071433249861002,
+      "output_tokens": 47,
+      "itl": 0.0030064674590349846,
+      "status": "ok"
+    },
+    {
+      "input_length": 69282,
+      "output_length": 430,
+      "num_hash_ids": 136,
+      "ttft": 0.1653317790478468,
+      "total_time": 1.0208677069749683,
+      "output_tokens": 256,
+      "itl": 0.0033545034353201298,
+      "status": "ok"
+    },
+    {
+      "input_length": 4743,
+      "output_length": 541,
+      "num_hash_ids": 10,
+      "ttft": 0.1649720969144255,
+      "total_time": 0.8932315008714795,
+      "output_tokens": 256,
+      "itl": 0.0028552839961633377,
+      "status": "ok"
+    },
+    {
+      "input_length": 28831,
+      "output_length": 634,
+      "num_hash_ids": 57,
+      "ttft": 0.16570465499535203,
+      "total_time": 0.9340850741136819,
+      "output_tokens": 256,
+      "itl": 0.003012598447465137,
+      "status": "ok"
+    },
+    {
+      "input_length": 1060,
+      "output_length": 60,
+      "num_hash_ids": 3,
+      "ttft": 0.06412212387658656,
+      "total_time": 0.24068338586948812,
+      "output_tokens": 60,
+      "itl": 0.0029905371533675215,
+      "status": "ok"
+    },
+    {
+      "input_length": 20187,
+      "output_length": 124,
+      "num_hash_ids": 40,
+      "ttft": 0.16415917314589024,
+      "total_time": 0.5342294131405652,
+      "output_tokens": 124,
+      "itl": 0.0030074306248831072,
+      "status": "ok"
+    },
+    {
+      "input_length": 11850,
+      "output_length": 382,
+      "num_hash_ids": 24,
+      "ttft": 0.0466294139623642,
+      "total_time": 0.8681766069494188,
+      "output_tokens": 256,
+      "itl": 0.0032216646115058195,
+      "status": "ok"
+    },
+    {
+      "input_length": 14314,
+      "output_length": 57,
+      "num_hash_ids": 28,
+      "ttft": 0.16698328196071088,
+      "total_time": 0.3273076058831066,
+      "output_tokens": 57,
+      "itl": 0.002859945587780593,
+      "status": "ok"
+    },
+    {
+      "input_length": 5240,
+      "output_length": 111,
+      "num_hash_ids": 11,
+      "ttft": 0.046464130049571395,
+      "total_time": 0.37252133898437023,
+      "output_tokens": 111,
+      "itl": 0.0029639359732920472,
+      "status": "ok"
+    },
+    {
+      "input_length": 33990,
+      "output_length": 521,
+      "num_hash_ids": 67,
+      "ttft": 0.16607843805104494,
+      "total_time": 0.4117729121353477,
+      "output_tokens": 86,
+      "itl": 0.002852574283914531,
+      "status": "ok"
+    },
+    {
+      "input_length": 26728,
+      "output_length": 370,
+      "num_hash_ids": 53,
+      "ttft": 0.04452564613893628,
+      "total_time": 0.8334491259884089,
+      "output_tokens": 256,
+      "itl": 0.0030931383882667504,
+      "status": "ok"
+    },
+    {
+      "input_length": 3510,
+      "output_length": 760,
+      "num_hash_ids": 7,
+      "ttft": 0.16512431693263352,
+      "total_time": 0.8939175070263445,
+      "output_tokens": 256,
+      "itl": 0.0028572814475160604,
+      "status": "ok"
+    },
+    {
+      "input_length": 12588,
+      "output_length": 387,
+      "num_hash_ids": 25,
+      "ttft": 0.16555852186866105,
+      "total_time": 0.9356698798947036,
+      "output_tokens": 256,
+      "itl": 0.0030199468044527604,
+      "status": "ok"
+    },
+    {
+      "input_length": 8058,
+      "output_length": 457,
+      "num_hash_ids": 16,
+      "ttft": 0.04593039210885763,
+      "total_time": 0.7834147321991622,
+      "output_tokens": 255,
+      "itl": 0.0029033782129271293,
+      "status": "ok"
+    },
+    {
+      "input_length": 6303,
+      "output_length": 104,
+      "num_hash_ids": 13,
+      "ttft": 0.1665514048654586,
+      "total_time": 0.16672963090240955,
+      "output_tokens": 0,
+      "itl": null,
+      "status": "ok"
+    },
+    {
+      "input_length": 10602,
+      "output_length": 123,
+      "num_hash_ids": 21,
+      "ttft": 0.16466829599812627,
+      "total_time": 0.5132930979598314,
+      "output_tokens": 123,
+      "itl": 0.0028565199988451404,
+      "status": "ok"
+    },
+    {
+      "input_length": 15368,
+      "output_length": 23,
+      "num_hash_ids": 31,
+      "ttft": 0.16492235008627176,
+      "total_time": 0.2278443779796362,
+      "output_tokens": 23,
+      "itl": 0.0028589950895614243,
+      "status": "ok"
+    },
+    {
+      "input_length": 13695,
+      "output_length": 527,
+      "num_hash_ids": 27,
+      "ttft": 0.1650550460908562,
+      "total_time": 0.934146324172616,
+      "output_tokens": 256,
+      "itl": 0.003014999313973913,
+      "status": "ok"
+    },
+    {
+      "input_length": 3808,
+      "output_length": 16,
+      "num_hash_ids": 8,
+      "ttft": 0.1650957209058106,
+      "total_time": 0.20800220896489918,
+      "output_tokens": 16,
+      "itl": 0.0028511852646867434,
+      "status": "ok"
+    },
+    {
+      "input_length": 9535,
+      "output_length": 529,
+      "num_hash_ids": 19,
+      "ttft": 0.1655959638301283,
+      "total_time": 0.8953465269878507,
+      "output_tokens": 256,
+      "itl": 0.002861673412296702,
+      "status": "ok"
+    },
+    {
+      "input_length": 35126,
+      "output_length": 618,
+      "num_hash_ids": 69,
+      "ttft": 0.045359167037531734,
+      "total_time": 0.045381639152765274,
+      "output_tokens": 0,
+      "itl": null,
+      "status": "ok"
+    },
+    {
+      "input_length": 1434,
+      "output_length": 90,
+      "num_hash_ids": 3,
+      "ttft": 0.04469123110175133,
+      "total_time": 0.326736262999475,
+      "output_tokens": 90,
+      "itl": 0.003167715234933107,
+      "status": "ok"
+    },
+    {
+      "input_length": 6077,
+      "output_length": 128,
+      "num_hash_ids": 12,
+      "ttft": 0.16510256403125823,
+      "total_time": 0.5483889610040933,
+      "output_tokens": 128,
+      "itl": 0.003017774322913505,
+      "status": "ok"
+    },
+    {
+      "input_length": 23983,
+      "output_length": 553,
+      "num_hash_ids": 47,
+      "ttft": 0.1638728950638324,
+      "total_time": 0.9330446040257812,
+      "output_tokens": 256,
+      "itl": 0.003015547274045792,
+      "status": "ok"
+    },
+    {
+      "input_length": 6886,
+      "output_length": 366,
+      "num_hash_ids": 14,
+      "ttft": 0.16337908199056983,
+      "total_time": 0.9320367500185966,
+      "output_tokens": 256,
+      "itl": 0.003013071901731047,
+      "status": "ok"
+    },
+    {
+      "input_length": 115635,
+      "output_length": 271,
+      "num_hash_ids": 226,
+      "ttft": 0.16479654097929597,
+      "total_time": 0.9332734299823642,
+      "output_tokens": 256,
+      "itl": 0.0030130519805585637,
+      "status": "ok"
+    },
+    {
+      "input_length": 24829,
+      "output_length": 614,
+      "num_hash_ids": 49,
+      "ttft": 0.16428632591851056,
+      "total_time": 0.9335021439474076,
+      "output_tokens": 256,
+      "itl": 0.003016437497903027,
+      "status": "ok"
+    },
+    {
+      "input_length": 40536,
+      "output_length": 356,
+      "num_hash_ids": 80,
+      "ttft": 0.16450016596354544,
+      "total_time": 0.9317263178527355,
+      "output_tokens": 256,
+      "itl": 0.0030080775292042426,
+      "status": "ok"
+    },
+    {
+      "input_length": 13712,
+      "output_length": 394,
+      "num_hash_ids": 27,
+      "ttft": 0.16367706819437444,
+      "total_time": 0.9289820780977607,
+      "output_tokens": 256,
+      "itl": 0.003000640191649105,
+      "status": "ok"
+    },
+    {
+      "input_length": 20151,
+      "output_length": 662,
+      "num_hash_ids": 40,
+      "ttft": 0.16640070406720042,
+      "total_time": 0.895347893005237,
+      "output_tokens": 256,
+      "itl": 0.002858116540729123,
+      "status": "ok"
+    },
+    {
+      "input_length": 900,
+      "output_length": 200,
+      "num_hash_ids": 2,
+      "ttft": 0.04289576597511768,
+      "total_time": 0.663977089105174,
+      "output_tokens": 200,
+      "itl": 0.0031208956436296204,
+      "status": "ok"
+    },
+    {
+      "input_length": 1176,
+      "output_length": 401,
+      "num_hash_ids": 3,
+      "ttft": 0.06355090602301061,
+      "total_time": 0.1862728619016707,
+      "output_tokens": 41,
+      "itl": 0.002983724471414462,
+      "status": "ok"
+    },
+    {
+      "input_length": 1216,
+      "output_length": 384,
+      "num_hash_ids": 3,
+      "ttft": 0.06845995504409075,
+      "total_time": 0.8301629580091685,
+      "output_tokens": 256,
+      "itl": 0.0029869296432783205,
+      "status": "ok"
+    },
+    {
+      "input_length": 28631,
+      "output_length": 372,
+      "num_hash_ids": 56,
+      "ttft": 0.16684006107971072,
+      "total_time": 0.8960295249707997,
+      "output_tokens": 256,
+      "itl": 0.0028589283408341454,
+      "status": "ok"
+    },
+    {
+      "input_length": 894,
+      "output_length": 349,
+      "num_hash_ids": 2,
+      "ttft": 0.04306718520820141,
+      "total_time": 0.7965870872139931,
+      "output_tokens": 256,
+      "itl": 0.0029548630154892512,
+      "status": "ok"
+    },
+    {
+      "input_length": 1888,
+      "output_length": 407,
+      "num_hash_ids": 4,
+      "ttft": 0.09363213600590825,
+      "total_time": 0.9275997381191701,
+      "output_tokens": 256,
+      "itl": 0.003269648486200501,
+      "status": "ok"
+    },
+    {
+      "input_length": 10048,
+      "output_length": 172,
+      "num_hash_ids": 20,
+      "ttft": 0.16583946300670505,
+      "total_time": 0.42781993793323636,
+      "output_tokens": 87,
+      "itl": 0.003006903116244736,
+      "status": "ok"
+    },
+    {
+      "input_length": 1008,
+      "output_length": 39,
+      "num_hash_ids": 2,
+      "ttft": 0.04590044287033379,
+      "total_time": 0.1531001520343125,
+      "output_tokens": 39,
+      "itl": 0.002820404319974937,
+      "status": "ok"
+    },
+    {
+      "input_length": 24663,
+      "output_length": 110,
+      "num_hash_ids": 49,
+      "ttft": 0.16582864592783153,
+      "total_time": 0.49259398481808603,
+      "output_tokens": 110,
+      "itl": 0.002996339714752698,
+      "status": "ok"
+    },
+    {
+      "input_length": 8774,
+      "output_length": 8,
+      "num_hash_ids": 18,
+      "ttft": 0.16506018885411322,
+      "total_time": 0.18650359683670104,
+      "output_tokens": 8,
+      "itl": 0.0030593848787248135,
+      "status": "ok"
+    },
+    {
+      "input_length": 896,
+      "output_length": 354,
+      "num_hash_ids": 2,
+      "ttft": 0.04292975482530892,
+      "total_time": 0.7556310999207199,
+      "output_tokens": 256,
+      "itl": 0.0027944527338167615,
+      "status": "ok"
+    },
+    {
+      "input_length": 6630,
+      "output_length": 465,
+      "num_hash_ids": 13,
+      "ttft": 0.16404074314050376,
+      "total_time": 0.5494677140377462,
+      "output_tokens": 131,
+      "itl": 0.002935522377419357,
+      "status": "ok"
+    },
+    {
+      "input_length": 18907,
+      "output_length": 327,
+      "num_hash_ids": 37,
+      "ttft": 0.05551460897549987,
+      "total_time": 0.858810689067468,
+      "output_tokens": 256,
+      "itl": 0.003150085604512224,
+      "status": "ok"
+    },
+    {
+      "input_length": 895,
+      "output_length": 301,
+      "num_hash_ids": 2,
+      "ttft": 0.04271449591033161,
+      "total_time": 0.7976548389997333,
+      "output_tokens": 256,
+      "itl": 0.0029601063725410723,
+      "status": "ok"
+    },
+    {
+      "input_length": 6929,
+      "output_length": 303,
+      "num_hash_ids": 14,
+      "ttft": 0.1693025699350983,
+      "total_time": 0.8990918598137796,
+      "output_tokens": 256,
+      "itl": 0.002861043172614539,
+      "status": "ok"
+    },
+    {
+      "input_length": 14131,
+      "output_length": 267,
+      "num_hash_ids": 28,
+      "ttft": 0.16323994798585773,
+      "total_time": 0.28642395907081664,
+      "output_tokens": 41,
+      "itl": 0.0029945419053547086,
+      "status": "ok"
+    },
+    {
+      "input_length": 26158,
+      "output_length": 3,
+      "num_hash_ids": 52,
+      "ttft": 0.1652552681043744,
+      "total_time": 0.17157403915189207,
+      "output_tokens": 3,
+      "itl": 0.0031469579553231597,
+      "status": "ok"
+    },
+    {
+      "input_length": 1412,
+      "output_length": 369,
+      "num_hash_ids": 3,
+      "ttft": 0.06377231888473034,
+      "total_time": 0.8260589099954814,
+      "output_tokens": 256,
+      "itl": 0.0029889592946525296,
+      "status": "ok"
+    },
+    {
+      "input_length": 10242,
+      "output_length": 504,
+      "num_hash_ids": 21,
+      "ttft": 0.16759681096300483,
+      "total_time": 0.9644321380183101,
+      "output_tokens": 256,
+      "itl": 0.003124088956517916,
+      "status": "ok"
+    },
+    {
+      "input_length": 8848,
+      "output_length": 225,
+      "num_hash_ids": 18,
+      "ttft": 0.16598750208504498,
+      "total_time": 0.806557082105428,
+      "output_tokens": 225,
+      "itl": 0.0028595530623403776,
+      "status": "ok"
+    },
+    {
+      "input_length": 19453,
+      "output_length": 510,
+      "num_hash_ids": 38,
+      "ttft": 0.1670359370764345,
+      "total_time": 0.9365302741061896,
+      "output_tokens": 256,
+      "itl": 0.0030175270120083703,
+      "status": "ok"
+    },
+    {
+      "input_length": 12745,
+      "output_length": 347,
+      "num_hash_ids": 25,
+      "ttft": 0.16500110388733447,
+      "total_time": 0.9330846518278122,
+      "output_tokens": 256,
+      "itl": 0.003011477003604466,
+      "status": "ok"
+    },
+    {
+      "input_length": 4316,
+      "output_length": 221,
+      "num_hash_ids": 9,
+      "ttft": 0.16669657081365585,
+      "total_time": 0.7956418148241937,
+      "output_tokens": 221,
+      "itl": 0.0028587201324460857,
+      "status": "ok"
+    },
+    {
+      "input_length": 67013,
+      "output_length": 360,
+      "num_hash_ids": 131,
+      "ttft": 0.1647979160770774,
+      "total_time": 0.933383472962305,
+      "output_tokens": 256,
+      "itl": 0.0030134232705641612,
+      "status": "ok"
+    },
+    {
+      "input_length": 16637,
+      "output_length": 3,
+      "num_hash_ids": 33,
+      "ttft": 0.1655882231425494,
+      "total_time": 0.171925017144531,
+      "output_tokens": 3,
+      "itl": 0.0030756329651921988,
+      "status": "ok"
+    },
+    {
+      "input_length": 1000,
+      "output_length": 125,
+      "num_hash_ids": 2,
+      "ttft": 0.042492473032325506,
+      "total_time": 0.4077598040457815,
+      "output_tokens": 125,
+      "itl": 0.002944083548256106,
+      "status": "ok"
+    },
+    {
+      "input_length": 23911,
+      "output_length": 383,
+      "num_hash_ids": 47,
+      "ttft": 0.046434849966317415,
+      "total_time": 0.7546490540262312,
+      "output_tokens": 255,
+      "itl": 0.002788152055279535,
+      "status": "ok"
+    },
+    {
+      "input_length": 4999,
+      "output_length": 230,
+      "num_hash_ids": 10,
+      "ttft": 0.046384708024561405,
+      "total_time": 0.7336590578779578,
+      "output_tokens": 230,
+      "itl": 0.0030005776412850124,
+      "status": "ok"
+    },
+    {
+      "input_length": 9582,
+      "output_length": 300,
+      "num_hash_ids": 19,
+      "ttft": 0.16556048509664834,
+      "total_time": 0.8932357660960406,
+      "output_tokens": 256,
+      "itl": 0.002852994482051216,
+      "status": "ok"
+    },
+    {
+      "input_length": 14376,
+      "output_length": 241,
+      "num_hash_ids": 29,
+      "ttft": 0.16454382590018213,
+      "total_time": 0.8882677119690925,
+      "output_tokens": 241,
+      "itl": 0.0030149685335345566,
+      "status": "ok"
+    },
+    {
+      "input_length": 16577,
+      "output_length": 2000,
+      "num_hash_ids": 33,
+      "ttft": 0.16414116509258747,
+      "total_time": 0.8924486939795315,
+      "output_tokens": 256,
+      "itl": 0.0028560116741002776,
+      "status": "ok"
+    },
+    {
+      "input_length": 1318,
+      "output_length": 314,
+      "num_hash_ids": 3,
+      "ttft": 0.06604912295006216,
+      "total_time": 0.8288412990514189,
+      "output_tokens": 256,
+      "itl": 0.0029908886279764713,
+      "status": "ok"
+    },
+    {
+      "input_length": 11113,
+      "output_length": 467,
+      "num_hash_ids": 22,
+      "ttft": 0.1660851479973644,
+      "total_time": 0.8956836559809744,
+      "output_tokens": 256,
+      "itl": 0.002861067785096227,
+      "status": "ok"
+    },
+    {
+      "input_length": 9553,
+      "output_length": 61,
+      "num_hash_ids": 19,
+      "ttft": 0.16520744608715177,
+      "total_time": 0.3453558760229498,
+      "output_tokens": 61,
+      "itl": 0.0030020230488541225,
+      "status": "ok"
+    },
+    {
+      "input_length": 9586,
+      "output_length": 270,
+      "num_hash_ids": 19,
+      "ttft": 0.1651596820447594,
+      "total_time": 0.9308360051363707,
+      "output_tokens": 256,
+      "itl": 0.0030021290230911736,
+      "status": "ok"
+    },
+    {
+      "input_length": 8341,
+      "output_length": 455,
+      "num_hash_ids": 17,
+      "ttft": 0.1647819560021162,
+      "total_time": 0.9320103288628161,
+      "output_tokens": 256,
+      "itl": 0.003007983764195267,
+      "status": "ok"
+    },
+    {
+      "input_length": 1112,
+      "output_length": 25,
+      "num_hash_ids": 3,
+      "ttft": 0.06988334399648011,
+      "total_time": 0.14147064089775085,
+      "output_tokens": 25,
+      "itl": 0.002981681997577349,
+      "status": "ok"
+    },
+    {
+      "input_length": 5780,
+      "output_length": 405,
+      "num_hash_ids": 12,
+      "ttft": 0.16590914316475391,
+      "total_time": 0.8952891421504319,
+      "output_tokens": 256,
+      "itl": 0.0028602134427238328,
+      "status": "ok"
+    },
+    {
+      "input_length": 11667,
+      "output_length": 324,
+      "num_hash_ids": 23,
+      "ttft": 0.16432662401348352,
+      "total_time": 0.9325014860369265,
+      "output_tokens": 256,
+      "itl": 0.0030113527761297483,
+      "status": "ok"
+    },
+    {
+      "input_length": 2533,
+      "output_length": 241,
+      "num_hash_ids": 5,
+      "ttft": 0.11966962600126863,
+      "total_time": 0.840703863883391,
+      "output_tokens": 241,
+      "itl": 0.0030038631705489633,
+      "status": "ok"
+    },
+    {
+      "input_length": 3313,
+      "output_length": 52,
+      "num_hash_ids": 7,
+      "ttft": 0.16576646408066154,
+      "total_time": 0.16579110990278423,
+      "output_tokens": 0,
+      "itl": null,
+      "status": "ok"
+    },
+    {
+      "input_length": 11983,
+      "output_length": 450,
+      "num_hash_ids": 24,
+      "ttft": 0.1645030709914863,
+      "total_time": 0.16463894303888083,
+      "output_tokens": 0,
+      "itl": null,
+      "status": "ok"
+    },
+    {
+      "input_length": 915,
+      "output_length": 506,
+      "num_hash_ids": 2,
+      "ttft": 0.043139983201399446,
+      "total_time": 0.7979940350633115,
+      "output_tokens": 256,
+      "itl": 0.002959824830987582,
+      "status": "ok"
+    },
+    {
+      "input_length": 20422,
+      "output_length": 459,
+      "num_hash_ids": 40,
+      "ttft": 0.16602270491421223,
+      "total_time": 0.8957541780546308,
+      "output_tokens": 256,
+      "itl": 0.0028615284985040916,
+      "status": "ok"
+    },
+    {
+      "input_length": 11945,
+      "output_length": 413,
+      "num_hash_ids": 24,
+      "ttft": 0.16475907806307077,
+      "total_time": 0.9329612029250711,
+      "output_tokens": 256,
+      "itl": 0.003011948690183607,
+      "status": "ok"
+    },
+    {
+      "input_length": 4961,
+      "output_length": 294,
+      "num_hash_ids": 10,
+      "ttft": 0.16609904705546796,
+      "total_time": 0.6852185421157628,
+      "output_tokens": 172,
+      "itl": 0.0030155375964765314,
+      "status": "ok"
+    },
+    {
+      "input_length": 10299,
+      "output_length": 395,
+      "num_hash_ids": 21,
+      "ttft": 0.16497044102288783,
+      "total_time": 0.8937261700630188,
+      "output_tokens": 256,
+      "itl": 0.0028577558979319007,
+      "status": "ok"
+    },
+    {
+      "input_length": 81445,
+      "output_length": 365,
+      "num_hash_ids": 160,
+      "ttft": 0.16570940683595836,
+      "total_time": 0.7741264468058944,
+      "output_tokens": 202,
+      "itl": 0.0030099152939496053,
+      "status": "ok"
+    },
+    {
+      "input_length": 11296,
+      "output_length": 48,
+      "num_hash_ids": 23,
+      "ttft": 0.1667800690047443,
+      "total_time": 0.30880073201842606,
+      "output_tokens": 48,
+      "itl": 0.0030176633414118847,
+      "status": "ok"
+    },
+    {
+      "input_length": 24080,
+      "output_length": 422,
+      "num_hash_ids": 48,
+      "ttft": 0.16465104697272182,
+      "total_time": 0.8186499029397964,
+      "output_tokens": 229,
+      "itl": 0.0028540983197704087,
+      "status": "ok"
+    },
+    {
+      "input_length": 26570,
+      "output_length": 655,
+      "num_hash_ids": 52,
+      "ttft": 0.16536257602274418,
+      "total_time": 0.9340913270134479,
+      "output_tokens": 256,
+      "itl": 0.003013919153269015,
+      "status": "ok"
+    },
+    {
+      "input_length": 5472,
+      "output_length": 472,
+      "num_hash_ids": 11,
+      "ttft": 0.16606839303858578,
+      "total_time": 0.8954243629705161,
+      "output_tokens": 256,
+      "itl": 0.002857435724752791,
+      "status": "ok"
+    },
+    {
+      "input_length": 7138,
+      "output_length": 126,
+      "num_hash_ids": 14,
+      "ttft": 0.165291259996593,
+      "total_time": 0.5503221559338272,
+      "output_tokens": 126,
+      "itl": 0.0030778491999953984,
+      "status": "ok"
+    },
+    {
+      "input_length": 3631,
+      "output_length": 22,
+      "num_hash_ids": 8,
+      "ttft": 0.16532347886823118,
+      "total_time": 0.2289295089431107,
+      "output_tokens": 22,
+      "itl": 0.003019195438052217,
+      "status": "ok"
+    },
+    {
+      "input_length": 2040,
+      "output_length": 4,
+      "num_hash_ids": 4,
+      "ttft": 0.09432395920157433,
+      "total_time": 0.10350193805061281,
+      "output_tokens": 4,
+      "itl": 0.003014942320684592,
+      "status": "ok"
+    },
+    {
+      "input_length": 2991,
+      "output_length": 296,
+      "num_hash_ids": 6,
+      "ttft": 0.14624259900301695,
+      "total_time": 0.9614636970218271,
+      "output_tokens": 256,
+      "itl": 0.0031960111567933187,
+      "status": "ok"
+    },
+    {
+      "input_length": 24982,
+      "output_length": 480,
+      "num_hash_ids": 49,
+      "ttft": 0.16509918496012688,
+      "total_time": 0.45119331404566765,
+      "output_tokens": 95,
+      "itl": 0.0030064217652134755,
+      "status": "ok"
+    },
+    {
+      "input_length": 5017,
+      "output_length": 145,
+      "num_hash_ids": 10,
+      "ttft": 0.16519785881973803,
+      "total_time": 0.16540548601187766,
+      "output_tokens": 0,
+      "itl": null,
+      "status": "ok"
+    },
+    {
+      "input_length": 10470,
+      "output_length": 62,
+      "num_hash_ids": 21,
+      "ttft": 0.1648830589838326,
+      "total_time": 0.3489999291487038,
+      "output_tokens": 62,
+      "itl": 0.0030148706063017495,
+      "status": "ok"
+    },
+    {
+      "input_length": 908,
+      "output_length": 341,
+      "num_hash_ids": 2,
+      "ttft": 0.04288644599728286,
+      "total_time": 0.8006661969702691,
+      "output_tokens": 256,
+      "itl": 0.002971156066575763,
+      "status": "ok"
+    },
+    {
+      "input_length": 6097,
+      "output_length": 364,
+      "num_hash_ids": 12,
+      "ttft": 0.16503729787655175,
+      "total_time": 0.8941512429155409,
+      "output_tokens": 256,
+      "itl": 0.0028591852863410526,
+      "status": "ok"
+    },
+    {
+      "input_length": 8904,
+      "output_length": 499,
+      "num_hash_ids": 18,
+      "ttft": 0.1639845499303192,
+      "total_time": 0.9309011120349169,
+      "output_tokens": 256,
+      "itl": 0.0030068893962557994,
+      "status": "ok"
+    },
+    {
+      "input_length": 9870,
+      "output_length": 321,
+      "num_hash_ids": 20,
+      "ttft": 0.16336244205012918,
+      "total_time": 0.9803301400970668,
+      "output_tokens": 256,
+      "itl": 0.0032023375059532766,
+      "status": "ok"
+    },
+    {
+      "input_length": 121298,
+      "output_length": 614,
+      "num_hash_ids": 237,
+      "ttft": 0.04576642788015306,
+      "total_time": 0.8287673338782042,
+      "output_tokens": 256,
+      "itl": 0.0030698050388737637,
+      "status": "ok"
+    },
+    {
+      "input_length": 1809,
+      "output_length": 634,
+      "num_hash_ids": 4,
+      "ttft": 0.08987085521221161,
+      "total_time": 0.8143600050825626,
+      "output_tokens": 256,
+      "itl": 0.0028405676194119688,
+      "status": "ok"
+    },
+    {
+      "input_length": 1904,
+      "output_length": 4,
+      "num_hash_ids": 4,
+      "ttft": 0.0896036340855062,
+      "total_time": 0.09838672401383519,
+      "output_tokens": 4,
+      "itl": 0.0029183203199257455,
+      "status": "ok"
+    },
+    {
+      "input_length": 6649,
+      "output_length": 22,
+      "num_hash_ids": 13,
+      "ttft": 0.16681986907497048,
+      "total_time": 0.22709067398682237,
+      "output_tokens": 22,
+      "itl": 0.002868884475901723,
+      "status": "ok"
+    },
+    {
+      "input_length": 1182,
+      "output_length": 27,
+      "num_hash_ids": 3,
+      "ttft": 0.06377974920906126,
+      "total_time": 0.13769695512019098,
+      "output_tokens": 27,
+      "itl": 0.0028419157651324686,
+      "status": "ok"
+    },
+    {
+      "input_length": 15978,
+      "output_length": 210,
+      "num_hash_ids": 32,
+      "ttft": 0.04556009289808571,
+      "total_time": 0.6918714758940041,
+      "output_tokens": 210,
+      "itl": 0.003091659986204579,
+      "status": "ok"
+    },
+    {
+      "input_length": 9871,
+      "output_length": 464,
+      "num_hash_ids": 20,
+      "ttft": 0.04626294504851103,
+      "total_time": 0.8021967099048197,
+      "output_tokens": 256,
+      "itl": 0.002964337556349004,
+      "status": "ok"
+    },
+    {
+      "input_length": 18203,
+      "output_length": 359,
+      "num_hash_ids": 36,
+      "ttft": 0.16523501300252974,
+      "total_time": 0.9625139879062772,
+      "output_tokens": 256,
+      "itl": 0.003126483787691184,
+      "status": "ok"
+    },
+    {
+      "input_length": 22484,
+      "output_length": 504,
+      "num_hash_ids": 44,
+      "ttft": 0.16383282584138215,
+      "total_time": 0.931913228938356,
+      "output_tokens": 256,
+      "itl": 0.0030112086512221426,
+      "status": "ok"
+    },
+    {
+      "input_length": 914,
+      "output_length": 394,
+      "num_hash_ids": 2,
+      "ttft": 0.04282908188179135,
+      "total_time": 0.7987472980748862,
+      "output_tokens": 256,
+      "itl": 0.002963844283173482,
+      "status": "ok"
+    },
+    {
+      "input_length": 25264,
+      "output_length": 2000,
+      "num_hash_ids": 50,
+      "ttft": 0.16848244005814195,
+      "total_time": 0.8967760358937085,
+      "output_tokens": 256,
+      "itl": 0.0028559550779926426,
+      "status": "ok"
+    },
+    {
+      "input_length": 5283,
+      "output_length": 222,
+      "num_hash_ids": 11,
+      "ttft": 0.16579923499375582,
+      "total_time": 0.16595871606841683,
+      "output_tokens": 0,
+      "itl": null,
+      "status": "ok"
+    },
+    {
+      "input_length": 8467,
+      "output_length": 5,
+      "num_hash_ids": 17,
+      "ttft": 0.16791960410773754,
+      "total_time": 0.18023299309425056,
+      "output_tokens": 5,
+      "itl": 0.003036624228116125,
+      "status": "ok"
+    },
+    {
+      "input_length": 18366,
+      "output_length": 533,
+      "num_hash_ids": 36,
+      "ttft": 0.046438081888481975,
+      "total_time": 0.8129817249719054,
+      "output_tokens": 256,
+      "itl": 0.0030055626478119224,
+      "status": "ok"
+    },
+    {
+      "input_length": 32127,
+      "output_length": 537,
+      "num_hash_ids": 63,
+      "ttft": 0.1647730830591172,
+      "total_time": 0.1647958350367844,
+      "output_tokens": 0,
+      "itl": null,
+      "status": "ok"
+    },
+    {
+      "input_length": 16100,
+      "output_length": 676,
+      "num_hash_ids": 32,
+      "ttft": 0.16540308110415936,
+      "total_time": 0.9011290711350739,
+      "output_tokens": 256,
+      "itl": 0.0028851076704906483,
+      "status": "ok"
+    },
+    {
+      "input_length": 9553,
+      "output_length": 71,
+      "num_hash_ids": 19,
+      "ttft": 0.04606489301659167,
+      "total_time": 0.22607378708198667,
+      "output_tokens": 71,
+      "itl": 0.0025698907706620438,
+      "status": "ok"
+    },
+    {
+      "input_length": 19403,
+      "output_length": 310,
+      "num_hash_ids": 38,
+      "ttft": 0.1655482710339129,
+      "total_time": 0.8371634129434824,
+      "output_tokens": 223,
+      "itl": 0.0030095874591990635,
+      "status": "ok"
+    },
+    {
+      "input_length": 894,
+      "output_length": 459,
+      "num_hash_ids": 2,
+      "ttft": 0.04285872308537364,
+      "total_time": 0.37380106816999614,
+      "output_tokens": 113,
+      "itl": 0.0029240469281960812,
+      "status": "ok"
+    },
+    {
+      "input_length": 15960,
+      "output_length": 336,
+      "num_hash_ids": 32,
+      "ttft": 0.16446215217001736,
+      "total_time": 0.9320681390818208,
+      "output_tokens": 256,
+      "itl": 0.0030095104621175456,
+      "status": "ok"
+    },
+    {
+      "input_length": 4817,
+      "output_length": 361,
+      "num_hash_ids": 10,
+      "ttft": 0.16507763089612126,
+      "total_time": 0.934061876963824,
+      "output_tokens": 256,
+      "itl": 0.0030155294392184883,
+      "status": "ok"
+    },
+    {
+      "input_length": 14044,
+      "output_length": 3,
+      "num_hash_ids": 28,
+      "ttft": 0.16620864113792777,
+      "total_time": 0.1721655549481511,
+      "output_tokens": 3,
+      "itl": 0.0029126079753041267,
+      "status": "ok"
+    },
+    {
+      "input_length": 68967,
+      "output_length": 505,
+      "num_hash_ids": 135,
+      "ttft": 0.1656613100785762,
+      "total_time": 0.9326534192077816,
+      "output_tokens": 256,
+      "itl": 0.003006978438911485,
+      "status": "ok"
+    },
+    {
+      "input_length": 932,
+      "output_length": 40,
+      "num_hash_ids": 2,
+      "ttft": 0.043093163054436445,
+      "total_time": 0.15919607714749873,
+      "output_tokens": 40,
+      "itl": 0.0029744783070129463,
+      "status": "ok"
+    },
+    {
+      "input_length": 40179,
+      "output_length": 222,
+      "num_hash_ids": 79,
+      "ttft": 0.04665228398516774,
+      "total_time": 0.6932108500041068,
+      "output_tokens": 222,
+      "itl": 0.002925028538803372,
+      "status": "ok"
+    },
+    {
+      "input_length": 85399,
+      "output_length": 435,
+      "num_hash_ids": 167,
+      "ttft": 0.16373005998320878,
+      "total_time": 1.0311000470537692,
+      "output_tokens": 256,
+      "itl": 0.003400537227371744,
+      "status": "ok"
+    },
+    {
+      "input_length": 51827,
+      "output_length": 381,
+      "num_hash_ids": 102,
+      "ttft": 0.046479457058012486,
+      "total_time": 0.8824971241410822,
+      "output_tokens": 256,
+      "itl": 0.0032784029448806656,
+      "status": "ok"
+    },
+    {
+      "input_length": 21792,
+      "output_length": 216,
+      "num_hash_ids": 43,
+      "ttft": 0.16582448408007622,
+      "total_time": 0.7805868829600513,
+      "output_tokens": 216,
+      "itl": 0.002858810851263792,
+      "status": "ok"
+    },
+    {
+      "input_length": 10049,
+      "output_length": 372,
+      "num_hash_ids": 20,
+      "ttft": 0.16562646790407598,
+      "total_time": 0.8948627258650959,
+      "output_tokens": 256,
+      "itl": 0.0028593081570066074,
+      "status": "ok"
+    },
+    {
+      "input_length": 1546,
+      "output_length": 87,
+      "num_hash_ids": 4,
+      "ttft": 0.09524733712896705,
+      "total_time": 0.3528585990425199,
+      "output_tokens": 87,
+      "itl": 0.0029951832555017844,
+      "status": "ok"
+    },
+    {
+      "input_length": 12097,
+      "output_length": 28,
+      "num_hash_ids": 24,
+      "ttft": 0.16467050602659583,
+      "total_time": 0.2421265710145235,
+      "output_tokens": 28,
+      "itl": 0.0028678350392039175,
+      "status": "ok"
+    },
+    {
+      "input_length": 31588,
+      "output_length": 582,
+      "num_hash_ids": 62,
+      "ttft": 0.16515951184555888,
+      "total_time": 0.331005146028474,
+      "output_tokens": 55,
+      "itl": 0.003010459020043965,
+      "status": "ok"
+    },
+    {
+      "input_length": 10159,
+      "output_length": 571,
+      "num_hash_ids": 20,
+      "ttft": 0.16630653594620526,
+      "total_time": 0.9356616369914263,
+      "output_tokens": 256,
+      "itl": 0.003016328086674798,
+      "status": "ok"
+    },
+    {
+      "input_length": 28641,
+      "output_length": 542,
+      "num_hash_ids": 56,
+      "ttft": 0.04539769608527422,
+      "total_time": 0.7491321929264814,
+      "output_tokens": 256,
+      "itl": 0.002759617890286095,
+      "status": "ok"
+    },
+    {
+      "input_length": 15182,
+      "output_length": 585,
+      "num_hash_ids": 30,
+      "ttft": 0.16489033913239837,
+      "total_time": 0.5424508880823851,
+      "output_tokens": 122,
+      "itl": 0.003087885339151729,
+      "status": "ok"
+    },
+    {
+      "input_length": 27934,
+      "output_length": 300,
+      "num_hash_ids": 55,
+      "ttft": 0.164020816097036,
+      "total_time": 0.8922980730421841,
+      "output_tokens": 256,
+      "itl": 0.0028558956468295233,
+      "status": "ok"
+    },
+    {
+      "input_length": 6214,
+      "output_length": 18,
+      "num_hash_ids": 13,
+      "ttft": 0.0458444959949702,
+      "total_time": 0.07216884498484433,
+      "output_tokens": 18,
+      "itl": 0.0015469380544827266,
+      "status": "ok"
+    },
+    {
+      "input_length": 8381,
+      "output_length": 459,
+      "num_hash_ids": 17,
+      "ttft": 0.16389476298354566,
+      "total_time": 0.7671751659363508,
+      "output_tokens": 211,
+      "itl": 0.0028570586516122732,
+      "status": "ok"
+    },
+    {
+      "input_length": 3907,
+      "output_length": 341,
+      "num_hash_ids": 8,
+      "ttft": 0.16672946303151548,
+      "total_time": 0.9344969671219587,
+      "output_tokens": 256,
+      "itl": 0.0030102679177242166,
+      "status": "ok"
+    },
+    {
+      "input_length": 24590,
+      "output_length": 540,
+      "num_hash_ids": 49,
+      "ttft": 0.1653064228594303,
+      "total_time": 0.9309440299402922,
+      "output_tokens": 256,
+      "itl": 0.0030018967722414756,
+      "status": "ok"
+    },
+    {
+      "input_length": 15516,
+      "output_length": 464,
+      "num_hash_ids": 31,
+      "ttft": 0.16477588191628456,
+      "total_time": 0.9321428849361837,
+      "output_tokens": 256,
+      "itl": 0.0030085829689222225,
+      "status": "ok"
+    },
+    {
+      "input_length": 6220,
+      "output_length": 193,
+      "num_hash_ids": 13,
+      "ttft": 0.16499502398073673,
+      "total_time": 0.723593738861382,
+      "output_tokens": 193,
+      "itl": 0.00290877437510062,
+      "status": "ok"
+    },
+    {
+      "input_length": 5750,
+      "output_length": 317,
+      "num_hash_ids": 12,
+      "ttft": 0.16664906893856823,
+      "total_time": 0.9353885420132428,
+      "output_tokens": 256,
+      "itl": 0.0030138903964018705,
+      "status": "ok"
+    },
+    {
+      "input_length": 1844,
+      "output_length": 590,
+      "num_hash_ids": 4,
+      "ttft": 0.08921511587686837,
+      "total_time": 0.8354067888576537,
+      "output_tokens": 256,
+      "itl": 0.002925771561579085,
+      "status": "ok"
+    },
+    {
+      "input_length": 1069,
+      "output_length": 27,
+      "num_hash_ids": 3,
+      "ttft": 0.06612408021464944,
+      "total_time": 0.15326958009973168,
+      "output_tokens": 27,
+      "itl": 0.0033508303414027277,
+      "status": "ok"
+    },
+    {
+      "input_length": 1053,
+      "output_length": 185,
+      "num_hash_ids": 3,
+      "ttft": 0.06566405319608748,
+      "total_time": 0.587144561111927,
+      "output_tokens": 185,
+      "itl": 0.0028332435758784413,
+      "status": "ok"
+    },
+    {
+      "input_length": 8461,
+      "output_length": 421,
+      "num_hash_ids": 17,
+      "ttft": 0.16372461896389723,
+      "total_time": 0.9297919848468155,
+      "output_tokens": 256,
+      "itl": 0.003003589540500851,
+      "status": "ok"
+    },
+    {
+      "input_length": 8509,
+      "output_length": 583,
+      "num_hash_ids": 17,
+      "ttft": 0.16487962799146771,
+      "total_time": 0.9343778039328754,
+      "output_tokens": 256,
+      "itl": 0.0030175420747814226,
+      "status": "ok"
+    },
+    {
+      "input_length": 899,
+      "output_length": 276,
+      "num_hash_ids": 2,
+      "ttft": 0.04314309312030673,
+      "total_time": 0.8006541461218148,
+      "output_tokens": 256,
+      "itl": 0.0029701170465890685,
+      "status": "ok"
+    },
+    {
+      "input_length": 9617,
+      "output_length": 10,
+      "num_hash_ids": 19,
+      "ttft": 0.1638039310928434,
+      "total_time": 0.1909795959945768,
+      "output_tokens": 10,
+      "itl": 0.0030016206567072207,
+      "status": "ok"
+    },
+    {
+      "input_length": 21668,
+      "output_length": 689,
+      "num_hash_ids": 43,
+      "ttft": 0.046243718126788735,
+      "total_time": 0.794384318171069,
+      "output_tokens": 256,
+      "itl": 0.0029333385994986575,
+      "status": "ok"
+    },
+    {
+      "input_length": 19037,
+      "output_length": 430,
+      "num_hash_ids": 38,
+      "ttft": 0.16507675615139306,
+      "total_time": 0.9333828950766474,
+      "output_tokens": 256,
+      "itl": 0.003012389066976075,
+      "status": "ok"
+    },
+    {
+      "input_length": 2063,
+      "output_length": 479,
+      "num_hash_ids": 5,
+      "ttft": 0.12163342698477209,
+      "total_time": 0.888475120998919,
+      "output_tokens": 256,
+      "itl": 0.0030066130591519906,
+      "status": "ok"
+    },
+    {
+      "input_length": 9173,
+      "output_length": 454,
+      "num_hash_ids": 18,
+      "ttft": 0.1642238930799067,
+      "total_time": 0.8928672671318054,
+      "output_tokens": 256,
+      "itl": 0.0028569108468717804,
+      "status": "ok"
+    },
+    {
+      "input_length": 5762,
+      "output_length": 389,
+      "num_hash_ids": 12,
+      "ttft": 0.045897325966507196,
+      "total_time": 0.7622250651475042,
+      "output_tokens": 256,
+      "itl": 0.0028090286753414307,
+      "status": "ok"
+    },
+    {
+      "input_length": 2535,
+      "output_length": 386,
+      "num_hash_ids": 5,
+      "ttft": 0.11978629301302135,
+      "total_time": 0.84708316414617,
+      "output_tokens": 256,
+      "itl": 0.002851712286435798,
+      "status": "ok"
+    },
+    {
+      "input_length": 3075,
+      "output_length": 666,
+      "num_hash_ids": 7,
+      "ttft": 0.16505429008975625,
+      "total_time": 0.8941175111103803,
+      "output_tokens": 256,
+      "itl": 0.00285849362319591,
+      "status": "ok"
+    },
+    {
+      "input_length": 7805,
+      "output_length": 600,
+      "num_hash_ids": 16,
+      "ttft": 0.16581033798865974,
+      "total_time": 0.3498440289404243,
+      "output_tokens": 61,
+      "itl": 0.003008636630450686,
+      "status": "ok"
+    },
+    {
+      "input_length": 7002,
+      "output_length": 495,
+      "num_hash_ids": 14,
+      "ttft": 0.04454408190213144,
+      "total_time": 0.7891162089072168,
+      "output_tokens": 256,
+      "itl": 0.002919383164422185,
+      "status": "ok"
+    },
+    {
+      "input_length": 112941,
+      "output_length": 199,
+      "num_hash_ids": 221,
+      "ttft": 0.16596976295113564,
+      "total_time": 0.1661031199619174,
+      "output_tokens": 0,
+      "itl": null,
+      "status": "ok"
+    },
+    {
+      "input_length": 1234,
+      "output_length": 381,
+      "num_hash_ids": 3,
+      "ttft": 0.06338553898967803,
+      "total_time": 0.7857198710553348,
+      "output_tokens": 256,
+      "itl": 0.0028321926819854506,
+      "status": "ok"
+    },
+    {
+      "input_length": 22680,
+      "output_length": 532,
+      "num_hash_ids": 45,
+      "ttft": 0.1651066339109093,
+      "total_time": 0.9335124890785664,
+      "output_tokens": 256,
+      "itl": 0.0030128137884186763,
+      "status": "ok"
+    },
+    {
+      "input_length": 21221,
+      "output_length": 367,
+      "num_hash_ids": 42,
+      "ttft": 0.16439286503009498,
+      "total_time": 0.8928588309790939,
+      "output_tokens": 256,
+      "itl": 0.0028563717334512987,
+      "status": "ok"
+    },
+    {
+      "input_length": 8829,
+      "output_length": 411,
+      "num_hash_ids": 18,
+      "ttft": 0.16661336412653327,
+      "total_time": 0.9353781270328909,
+      "output_tokens": 256,
+      "itl": 0.0030136928154046046,
+      "status": "ok"
+    },
+    {
+      "input_length": 14100,
+      "output_length": 381,
+      "num_hash_ids": 28,
+      "ttft": 0.04546513897366822,
+      "total_time": 0.7822170630097389,
+      "output_tokens": 256,
+      "itl": 0.00288866730132962,
+      "status": "ok"
+    },
+    {
+      "input_length": 26899,
+      "output_length": 36,
+      "num_hash_ids": 53,
+      "ttft": 0.16599125694483519,
+      "total_time": 0.26634205295704305,
+      "output_tokens": 36,
+      "itl": 0.0028661467401044707,
+      "status": "ok"
+    },
+    {
+      "input_length": 8350,
+      "output_length": 297,
+      "num_hash_ids": 17,
+      "ttft": 0.16355268913321197,
+      "total_time": 0.9302465741056949,
+      "output_tokens": 256,
+      "itl": 0.003006072799839518,
+      "status": "ok"
+    },
+    {
+      "input_length": 1763,
+      "output_length": 509,
+      "num_hash_ids": 4,
+      "ttft": 0.09271390805952251,
+      "total_time": 0.28445895412005484,
+      "output_tokens": 64,
+      "itl": 0.002992956681058757,
+      "status": "ok"
+    },
+    {
+      "input_length": 20569,
+      "output_length": 12,
+      "num_hash_ids": 41,
+      "ttft": 0.16481223911978304,
+      "total_time": 0.19648811011575162,
+      "output_tokens": 12,
+      "itl": 0.0028765940911729226,
+      "status": "ok"
+    },
+    {
+      "input_length": 2214,
+      "output_length": 520,
+      "num_hash_ids": 5,
+      "ttft": 0.12205185694620013,
+      "total_time": 0.9378417879343033,
+      "output_tokens": 256,
+      "itl": 0.0031987766945259827,
+      "status": "ok"
+    },
+    {
+      "input_length": 5286,
+      "output_length": 452,
+      "num_hash_ids": 11,
+      "ttft": 0.16413051285780966,
+      "total_time": 0.9301318589132279,
+      "output_tokens": 256,
+      "itl": 0.003001611235131528,
+      "status": "ok"
+    },
+    {
+      "input_length": 19978,
+      "output_length": 3,
+      "num_hash_ids": 40,
+      "ttft": 0.16441851388663054,
+      "total_time": 0.17074422701261938,
+      "output_tokens": 3,
+      "itl": 0.003083490999415517,
+      "status": "ok"
+    },
+    {
+      "input_length": 17636,
+      "output_length": 9,
+      "num_hash_ids": 35,
+      "ttft": 0.1641125159803778,
+      "total_time": 0.18848909414373338,
+      "output_tokens": 9,
+      "itl": 0.003032774373423308,
+      "status": "ok"
+    },
+    {
+      "input_length": 3877,
+      "output_length": 468,
+      "num_hash_ids": 8,
+      "ttft": 0.164580024080351,
+      "total_time": 0.16470432910136878,
+      "output_tokens": 0,
+      "itl": null,
+      "status": "ok"
+    },
+    {
+      "input_length": 4345,
+      "output_length": 582,
+      "num_hash_ids": 9,
+      "ttft": 0.1642431861255318,
+      "total_time": 0.7241467440035194,
+      "output_tokens": 196,
+      "itl": 0.0028542062506461754,
+      "status": "ok"
+    },
+    {
+      "input_length": 6426,
+      "output_length": 269,
+      "num_hash_ids": 13,
+      "ttft": 0.1650145088788122,
+      "total_time": 0.9350458618719131,
+      "output_tokens": 256,
+      "itl": 0.003019189565241629,
+      "status": "ok"
+    },
+    {
+      "input_length": 1216,
+      "output_length": 60,
+      "num_hash_ids": 3,
+      "ttft": 0.06869103200733662,
+      "total_time": 0.2447350979782641,
+      "output_tokens": 60,
+      "itl": 0.0029816727106601504,
+      "status": "ok"
+    },
+    {
+      "input_length": 11176,
+      "output_length": 349,
+      "num_hash_ids": 22,
+      "ttft": 0.1676263539120555,
+      "total_time": 0.9378021799493581,
+      "output_tokens": 256,
+      "itl": 0.0030193329176993345,
+      "status": "ok"
+    },
+    {
+      "input_length": 77799,
+      "output_length": 466,
+      "num_hash_ids": 152,
+      "ttft": 0.04637084691785276,
+      "total_time": 0.7478895341046154,
+      "output_tokens": 227,
+      "itl": 0.003088785606370497,
+      "status": "ok"
+    },
+    {
+      "input_length": 24061,
+      "output_length": 810,
+      "num_hash_ids": 47,
+      "ttft": 0.1657734711188823,
+      "total_time": 0.895630587125197,
+      "output_tokens": 256,
+      "itl": 0.002862096051046369,
+      "status": "ok"
+    },
+    {
+      "input_length": 1582,
+      "output_length": 125,
+      "num_hash_ids": 4,
+      "ttft": 0.09223627601750195,
+      "total_time": 0.4624134961050004,
+      "output_tokens": 125,
+      "itl": 0.0029842514758779397,
+      "status": "ok"
+    },
+    {
+      "input_length": 24587,
+      "output_length": 436,
+      "num_hash_ids": 49,
+      "ttft": 0.1667422498576343,
+      "total_time": 0.7347600979264826,
+      "output_tokens": 196,
+      "itl": 0.002892507256892247,
+      "status": "ok"
+    },
+    {
+      "input_length": 2211,
+      "output_length": 32,
+      "num_hash_ids": 5,
+      "ttft": 0.11933099199086428,
+      "total_time": 0.21252784109674394,
+      "output_tokens": 32,
+      "itl": 0.0030022667450529915,
+      "status": "ok"
+    },
+    {
+      "input_length": 3708,
+      "output_length": 589,
+      "num_hash_ids": 8,
+      "ttft": 0.1644524009898305,
+      "total_time": 0.8923175609670579,
+      "output_tokens": 256,
+      "itl": 0.002854273737609094,
+      "status": "ok"
+    },
+    {
+      "input_length": 4102,
+      "output_length": 1,
+      "num_hash_ids": 9,
+      "ttft": 0.16607561614364386,
+      "total_time": 0.16623410722240806,
+      "output_tokens": 1,
+      "itl": null,
+      "status": "ok"
+    },
+    {
+      "input_length": 9196,
+      "output_length": 46,
+      "num_hash_ids": 18,
+      "ttft": 0.16269472893327475,
+      "total_time": 0.31205541896633804,
+      "output_tokens": 46,
+      "itl": 0.0033186018673910037,
+      "status": "ok"
+    },
+    {
+      "input_length": 1798,
+      "output_length": 323,
+      "num_hash_ids": 4,
+      "ttft": 0.09329835907556117,
+      "total_time": 0.8581053719390184,
+      "output_tokens": 256,
+      "itl": 0.0029991224819027325,
+      "status": "ok"
+    },
+    {
+      "input_length": 6527,
+      "output_length": 19,
+      "num_hash_ids": 13,
+      "ttft": 0.16375525202602148,
+      "total_time": 0.21827022917568684,
+      "output_tokens": 19,
+      "itl": 0.003027380172473689,
+      "status": "ok"
+    },
+    {
+      "input_length": 9513,
+      "output_length": 476,
+      "num_hash_ids": 19,
+      "ttft": 0.16665676818229258,
+      "total_time": 0.9341932141687721,
+      "output_tokens": 256,
+      "itl": 0.0030093225796579146,
+      "status": "ok"
+    },
+    {
+      "input_length": 3444,
+      "output_length": 421,
+      "num_hash_ids": 7,
+      "ttft": 0.16455025388859212,
+      "total_time": 0.9338317969813943,
+      "output_tokens": 256,
+      "itl": 0.0030166930035121883,
+      "status": "ok"
+    },
+    {
+      "input_length": 3391,
+      "output_length": 369,
+      "num_hash_ids": 7,
+      "ttft": 0.16566262999549508,
+      "total_time": 0.895007808925584,
+      "output_tokens": 256,
+      "itl": 0.002859806478498321,
+      "status": "ok"
+    },
+    {
+      "input_length": 1085,
+      "output_length": 342,
+      "num_hash_ids": 3,
+      "ttft": 0.06239003292284906,
+      "total_time": 0.824569565942511,
+      "output_tokens": 256,
+      "itl": 0.0029885279690372007,
+      "status": "ok"
+    },
+    {
+      "input_length": 20906,
+      "output_length": 319,
+      "num_hash_ids": 41,
+      "ttft": 0.16563145001418889,
+      "total_time": 0.9309572819620371,
+      "output_tokens": 256,
+      "itl": 0.003000805133442376,
+      "status": "ok"
+    },
+    {
+      "input_length": 11250,
+      "output_length": 703,
+      "num_hash_ids": 22,
+      "ttft": 0.1646469491533935,
+      "total_time": 0.892918863100931,
+      "output_tokens": 256,
+      "itl": 0.0028555575091683983,
+      "status": "ok"
+    },
+    {
+      "input_length": 21364,
+      "output_length": 347,
+      "num_hash_ids": 42,
+      "ttft": 0.16486682905815542,
+      "total_time": 0.8938745299819857,
+      "output_tokens": 256,
+      "itl": 0.0028583606312453163,
+      "status": "ok"
+    },
+    {
+      "input_length": 15597,
+      "output_length": 138,
+      "num_hash_ids": 31,
+      "ttft": 0.16563345701433718,
+      "total_time": 0.5783551591448486,
+      "output_tokens": 138,
+      "itl": 0.0030114391094658278,
+      "status": "ok"
+    },
+    {
+      "input_length": 5240,
+      "output_length": 535,
+      "num_hash_ids": 11,
+      "ttft": 0.045455290004611015,
+      "total_time": 0.7594080348499119,
+      "output_tokens": 256,
+      "itl": 0.002799335246284803,
+      "status": "ok"
+    },
+    {
+      "input_length": 9974,
+      "output_length": 279,
+      "num_hash_ids": 20,
+      "ttft": 0.16589333396404982,
+      "total_time": 0.9355065189301968,
+      "output_tokens": 256,
+      "itl": 0.003017553846881378,
+      "status": "ok"
+    },
+    {
+      "input_length": 8807,
+      "output_length": 423,
+      "num_hash_ids": 18,
+      "ttft": 0.04543266794644296,
+      "total_time": 0.7936122759710997,
+      "output_tokens": 256,
+      "itl": 0.002933410599864289,
+      "status": "ok"
+    },
+    {
+      "input_length": 4214,
+      "output_length": 606,
+      "num_hash_ids": 9,
+      "ttft": 0.16535232309252024,
+      "total_time": 0.9339493529405445,
+      "output_tokens": 256,
+      "itl": 0.0030134181135936695,
+      "status": "ok"
+    }
+  ]
+}

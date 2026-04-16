@@ -1,0 +1,99 @@
+multinode: false
+
+modelArtifacts:
+  uri: "hf://openai/gpt-oss-20b"
+  name: "openai/gpt-oss-20b"
+  size: 50Gi
+  authSecretName: "llm-d-hf-token"
+  labels:
+    llm-d.ai/inference-serving: "true"
+    llm-d.ai/guide: "customer-models"
+    llm-d.ai/accelerator-variant: "gpu"
+    llm-d.ai/accelerator-vendor: "nvidia"
+    llm-d.ai/model: "gpt-oss-20b"
+
+routing:
+  proxy:
+    enabled: false
+    targetPort: 8000
+
+accelerator:
+  type: nvidia
+
+decode:
+  create: true
+  parallelism:
+    tensor: 1
+    data: 1
+  replicas: 16
+  monitoring:
+    podmonitor:
+      enabled: true
+      portName: "vllm"
+      path: "/metrics"
+      interval: "30s"
+  containers:
+    - name: "vllm"
+      image: vllm/vllm-openai:v0.18.0
+      modelCommand: vllmServe
+      args:
+        - "--disable-uvicorn-access-log"
+        - "--gpu-memory-utilization=0.9"
+        - "--enable-prefix-caching"
+        - "--max-model-len=8192"
+      env:
+        - name: VLLM_MXFP4_USE_MARLIN
+          value: "1"
+      ports:
+        - containerPort: 8000
+          name: vllm
+          protocol: TCP
+      resources:
+        limits:
+          cpu: '8'
+          memory: 100Gi
+        requests:
+          cpu: '8'
+          memory: 100Gi
+      mountModelVolume: true
+      volumeMounts:
+        - name: metrics-volume
+          mountPath: /.config
+        - name: shm
+          mountPath: /dev/shm
+        - name: torch-compile-cache
+          mountPath: /.cache
+      startupProbe:
+        httpGet:
+          path: /v1/models
+          port: vllm
+        initialDelaySeconds: 15
+        periodSeconds: 30
+        timeoutSeconds: 5
+        failureThreshold: 120
+      livenessProbe:
+        httpGet:
+          path: /health
+          port: vllm
+        periodSeconds: 10
+        timeoutSeconds: 5
+        failureThreshold: 3
+      readinessProbe:
+        httpGet:
+          path: /v1/models
+          port: vllm
+        periodSeconds: 5
+        timeoutSeconds: 2
+        failureThreshold: 3
+  volumes:
+    - name: metrics-volume
+      emptyDir: {}
+    - name: torch-compile-cache
+      emptyDir: {}
+    - name: shm
+      emptyDir:
+        medium: Memory
+        sizeLimit: 20Gi
+
+prefill:
+  create: false
