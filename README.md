@@ -47,35 +47,7 @@ sharing (shared system prompt across all requests).
 
 Steady-state TTFT P99 = 37-40ms (well within 500ms SLA). Cold-start prefix cache warming causes elevated latency for the first ~500 requests after deployment.
 
-## Recommendations
 
-1. **Increase concurrency to 32** (from current ~22 req/s operating point).
-   Throughput increases from ~4,240 to ~7,026 tok/s (+66%) while maintaining
-   TTFT P99 = 384ms (within 500ms SLA).
-
-2. **Add vLLM batch tuning**: `--max-num-seqs=512 --max-num-batched-tokens=16384`.
-   Improves throughput at high concurrency (+23% at conc=128) and reduces TTFT P99
-   at low concurrency (-25% at conc=16).
-
-3. **Keep 4xTP=4 topology**. This model benefits from tensor parallelism for
-   compute-heavy prefill. 16xTP=1 gives more replicas but slower per-request
-   prefill (-11% throughput on this workload).
-
-4. **EPP/gateway routing: depends on your actual cache hit rate. Proxy overhead may outweighs cache
-   benefits when prompts have significant unique content. **Test with your real traffic** — if your actual prefix sharing is
-   higher than our synthetic trace (e.g., >80% of input tokens are shared across
-   requests), EPP may provide net benefit. If most of each prompt is unique
-   document content, skip EPP.
-
-   IMPORTANT: Earlier versions of this analysis reported 99.9% cache hit rate
-   and recommended EPP. That was an error — the synthetic trace had identical
-   prompts (system prompt exceeded max_input_tokens, so customer/document blocks
-   were never included). The corrected diverse-prompt test shows EPP hurts this
-   workload. See `results/variants/fixed_*_diverse.json` for corrected data.
-
-5. **Plan for cold-start latency**: first ~500 requests after deployment/restart
-   will have elevated TTFT (up to 4.6s P99) while prefix caches warm up.
-   Use health check readiness gates or traffic ramping to mitigate.
 
 ## Scaling Projection
 
