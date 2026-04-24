@@ -61,10 +61,8 @@ Steady-state TTFT P99 = 37-40ms (well within 500ms SLA). Cold-start prefix cache
    compute-heavy prefill. 16xTP=1 gives more replicas but slower per-request
    prefill (-11% throughput on this workload).
 
-4. **EPP/gateway routing: depends on your actual cache hit rate.** Our testing
-   showed the proxy overhead (-63% throughput, +691% ITL) far outweighs cache
-   benefits when prompts have significant unique content (~27% document blocks).
-  **Test with your real traffic** — if your actual prefix sharing is
+4. **EPP/gateway routing: depends on your actual cache hit rate. Proxy overhead may outweighs cache
+   benefits when prompts have significant unique content. **Test with your real traffic** — if your actual prefix sharing is
    higher than our synthetic trace (e.g., >80% of input tokens are shared across
    requests), EPP may provide net benefit. If most of each prompt is unique
    document content, skip EPP.
