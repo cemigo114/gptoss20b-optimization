@@ -64,9 +64,7 @@ Steady-state TTFT P99 = 37-40ms (well within 500ms SLA). Cold-start prefix cache
 4. **EPP/gateway routing: depends on your actual cache hit rate.** Our testing
    showed the proxy overhead (-63% throughput, +691% ITL) far outweighs cache
    benefits when prompts have significant unique content (~27% document blocks).
-   EPP concentrates requests on fewer pods for cache locality, but the RHOSSM3
-   proxy per-token overhead (3ms → 25ms ITL) destroys throughput for short-output
-   workloads. **Test with your real traffic** — if your actual prefix sharing is
+  **Test with your real traffic** — if your actual prefix sharing is
    higher than our synthetic trace (e.g., >80% of input tokens are shared across
    requests), EPP may provide net benefit. If most of each prompt is unique
    document content, skip EPP.
